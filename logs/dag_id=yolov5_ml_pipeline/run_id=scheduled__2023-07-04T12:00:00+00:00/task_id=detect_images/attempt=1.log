@@ -1,75 +1,0 @@
-[2023-07-05T12:00:33.433+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: yolov5_ml_pipeline.detect_images scheduled__2023-07-04T12:00:00+00:00 [queued]>
-[2023-07-05T12:00:33.443+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: yolov5_ml_pipeline.detect_images scheduled__2023-07-04T12:00:00+00:00 [queued]>
-[2023-07-05T12:00:33.443+0000] {taskinstance.py:1288} INFO - 
---------------------------------------------------------------------------------
-[2023-07-05T12:00:33.443+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
-[2023-07-05T12:00:33.444+0000] {taskinstance.py:1290} INFO - 
---------------------------------------------------------------------------------
-[2023-07-05T12:00:33.461+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): detect_images> on 2023-07-04 12:00:00+00:00
-[2023-07-05T12:00:33.467+0000] {standard_task_runner.py:55} INFO - Started process 162 to run task
-[2023-07-05T12:00:33.473+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'yolov5_ml_pipeline', 'detect_images', 'scheduled__2023-07-04T12:00:00+00:00', '--job-id', '292', '--raw', '--subdir', 'DAGS_FOLDER/yolov5_pipe.py', '--cfg-path', '/tmp/tmpme_a6drj']
-[2023-07-05T12:00:33.476+0000] {standard_task_runner.py:83} INFO - Job 292: Subtask detect_images
-[2023-07-05T12:00:34.104+0000] {task_command.py:389} INFO - Running <TaskInstance: yolov5_ml_pipeline.detect_images scheduled__2023-07-04T12:00:00+00:00 [running]> on host yolov5-ml-pipeline-detect-imag-ac5b2cfb435445f694d31f8a99ccbc56
-[2023-07-05T12:00:34.952+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
-[2023-07-05T12:00:34.955+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
-[2023-07-05T12:00:34.957+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
-[2023-07-05T12:00:35.019+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
-AIRFLOW_CTX_DAG_OWNER=***
-AIRFLOW_CTX_DAG_ID=yolov5_ml_pipeline
-AIRFLOW_CTX_TASK_ID=detect_images
-AIRFLOW_CTX_EXECUTION_DATE=2023-07-04T12:00:00+00:00
-AIRFLOW_CTX_TRY_NUMBER=1
-AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-04T12:00:00+00:00
-[2023-07-05T12:00:35.026+0000] {kubernetes_pod.py:815} INFO - Building pod detect-images-ws4jpf79 with labels: {'dag_id': 'yolov5_ml_pipeline', 'task_id': 'detect_images', 'run_id': 'scheduled__2023-07-04T1200000000-c7849e8bf', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
-[2023-07-05T12:00:35.113+0000] {kubernetes_pod.py:476} INFO - Found matching pod detect-images-ws4jpf79 with labels {'airflow_kpo_in_cluster': 'True', 'airflow_version': '2.5.3', 'app': 'my_app', 'dag_id': 'yolov5_ml_pipeline', 'kubernetes_pod_operator': 'True', 'run_id': 'scheduled__2023-07-04T1200000000-c7849e8bf', 'task_id': 'detect_images', 'try_number': '1'}
-[2023-07-05T12:00:35.113+0000] {kubernetes_pod.py:477} INFO - `try_number` of task_instance: 1
-[2023-07-05T12:00:35.113+0000] {kubernetes_pod.py:478} INFO - `try_number` of pod: 1
-[2023-07-05T12:00:35.123+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:36.146+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:37.168+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:38.187+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:39.210+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:40.232+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:41.265+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:42.293+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:43.316+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:44.547+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:45.783+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:46.803+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:47.826+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:48.846+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:49.870+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:50.891+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:51.913+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:52.931+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:53.952+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:54.972+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:55.994+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:57.015+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:58.036+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:00:59.055+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:00.085+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:01.106+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:02.128+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:03.148+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:04.174+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:05.194+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:06.218+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:07.238+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-ws4jpf79
-[2023-07-05T12:01:10.603+0000] {pod_manager.py:235} INFO - [34m[1mdetect: [0mweights=['yolov5s.pt'], source=/data/input/, data=data/coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=/data/output/, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
-[2023-07-05T12:01:10.948+0000] {pod_manager.py:235} INFO - YOLOv5 🚀 v7.0-192-g459dd49 Python-3.10.9 torch-2.0.0 CUDA:0 (NVIDIA RTX A6000, 48685MiB)
-[2023-07-05T12:01:10.949+0000] {pod_manager.py:235} INFO - 
-[2023-07-05T12:01:11.328+0000] {pod_manager.py:235} INFO - Downloading https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt to yolov5s.pt...
-[2023-07-05T12:01:13.996+0000] {pod_manager.py:235} INFO -   0%|          | 0.00/14.1M [00:00<?, ?B/s]  2%|▏         | 336k/14.1M [00:00<00:04, 3.38MB/s]  5%|▍         | 672k/14.1M [00:00<00:18, 784kB/s]   8%|▊         | 1.12M/14.1M [00:00<00:09, 1.44MB/s] 10%|█         | 1.42M/14.1M [00:00<00:07, 1.70MB/s] 13%|█▎        | 1.90M/14.1M [00:01<00:05, 2.37MB/s] 18%|█▊        | 2.60M/14.1M [00:01<00:03, 3.50MB/s] 25%|██▌       | 3.57M/14.1M [00:01<00:02, 5.11MB/s] 34%|███▍      | 4.85M/14.1M [00:01<00:01, 7.26MB/s] 49%|████▉     | 6.93M/14.1M [00:01<00:00, 11.2MB/s] 63%|██████▎   | 8.95M/14.1M [00:01<00:00, 13.9MB/s] 78%|███████▊  | 11.1M/14.1M [00:01<00:00, 16.3MB/s] 93%|█████████▎| 13.1M/14.1M [00:01<00:00, 17.6MB/s]100%|██████████| 14.1M/14.1M [00:01<00:00, 7.97MB/s]
-[2023-07-05T12:01:13.997+0000] {pod_manager.py:235} INFO - 
-[2023-07-05T12:01:15.195+0000] {pod_manager.py:235} INFO - Fusing layers...
-[2023-07-05T12:01:16.810+0000] {pod_manager.py:235} INFO - YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients
-[2023-07-05T12:01:16.982+0000] {pod_manager.py:235} INFO - image 1/2 /data/input/bus.jpg: 640x480 4 persons, 1 bus, 55.7ms
-[2023-07-05T12:01:17.093+0000] {pod_manager.py:235} INFO - image 2/2 /data/input/zidane.jpg: 384x640 2 persons, 2 ties, 54.6ms
-[2023-07-05T12:01:17.093+0000] {pod_manager.py:235} INFO - Speed: 0.4ms pre-process, 55.2ms inference, 1.4ms NMS per image at shape (1, 3, 640, 640)
-[2023-07-05T12:01:17.094+0000] {pod_manager.py:235} INFO - Results saved to [1m/data/output/exp4[0m
-[2023-07-05T12:01:19.143+0000] {pod_manager.py:288} INFO - Pod detect-images-ws4jpf79 has phase Running
-[2023-07-05T12:01:21.164+0000] {kubernetes_pod.py:688} INFO - Deleting pod: detect-images-ws4jpf79
-[2023-07-05T12:01:21.262+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=yolov5_ml_pipeline, task_id=detect_images, execution_date=20230704T120000, start_date=20230705T120033, end_date=20230705T120121
-[2023-07-05T12:01:21.329+0000] {local_task_job.py:212} INFO - Task exited with return code 0
-[2023-07-05T12:01:21.365+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
