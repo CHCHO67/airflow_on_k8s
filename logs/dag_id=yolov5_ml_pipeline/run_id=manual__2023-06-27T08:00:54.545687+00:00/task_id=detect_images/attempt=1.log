@@ -1,0 +1,161 @@
+[2023-06-27T08:01:34.654+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: yolov5_ml_pipeline.detect_images manual__2023-06-27T08:00:54.545687+00:00 [queued]>
+[2023-06-27T08:01:34.662+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: yolov5_ml_pipeline.detect_images manual__2023-06-27T08:00:54.545687+00:00 [queued]>
+[2023-06-27T08:01:34.662+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-27T08:01:34.662+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-06-27T08:01:34.662+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-27T08:01:34.674+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): detect_images> on 2023-06-27 08:00:54.545687+00:00
+[2023-06-27T08:01:34.676+0000] {standard_task_runner.py:55} INFO - Started process 107 to run task
+[2023-06-27T08:01:34.678+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'yolov5_ml_pipeline', 'detect_images', 'manual__2023-06-27T08:00:54.545687+00:00', '--job-id', '245', '--raw', '--subdir', 'DAGS_FOLDER/yolov5_pipe.py', '--cfg-path', '/tmp/tmple_safq9']
+[2023-06-27T08:01:34.680+0000] {standard_task_runner.py:83} INFO - Job 245: Subtask detect_images
+[2023-06-27T08:01:35.281+0000] {task_command.py:389} INFO - Running <TaskInstance: yolov5_ml_pipeline.detect_images manual__2023-06-27T08:00:54.545687+00:00 [running]> on host yolov5-ml-pipeline-detect-imag-4d6c347fa7cf494db3a0734778aa0b02
+[2023-06-27T08:01:36.149+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-06-27T08:01:36.150+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-06-27T08:01:36.150+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
+[2023-06-27T08:01:36.197+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yolov5_ml_pipeline
+AIRFLOW_CTX_TASK_ID=detect_images
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-27T08:00:54.545687+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-27T08:00:54.545687+00:00
+[2023-06-27T08:01:36.201+0000] {kubernetes_pod.py:815} INFO - Building pod detect-images-te97zxh5 with labels: {'dag_id': 'yolov5_ml_pipeline', 'task_id': 'detect_images', 'run_id': 'manual__2023-06-27T080054.5456870000-3b4312231', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
+[2023-06-27T08:01:36.242+0000] {pod_manager.py:146} ERROR - Exception when attempting to create Namespaced Pod: {   "apiVersion": "v1",   "kind": "Pod",   "metadata": {     "annotations": {},     "labels": {       "app": "my_app",       "dag_id": "yolov5_ml_pipeline",       "task_id": "detect_images",       "run_id": "manual__2023-06-27T080054.5456870000-3b4312231",       "kubernetes_pod_operator": "True",       "try_number": "1",       "***_version": "2.5.3",       "***_kpo_in_cluster": "True"     },     "name": "detect-images-te97zxh5",     "namespace": "***-cluster"   },   "spec": {     "affinity": {},     "containers": [       {         "args": [           "--source",           "/data/input/",           "--weights",           "yolov5s.pt",           "--output",           "/data/output/",           "--img",           "640"         ],         "command": [           "python",           "detect.py"         ],         "env": [],         "envFrom": [],         "image": "ultralytics/yolov5:v5.0",         "name": "base",         "ports": [],         "volumeMounts": [           {             "mountPath": "/data",             "name": "data-volume",             "readOnly": false,             "subPath": "/input"           },           {             "mountPath": "/data",             "name": "data-volume",             "readOnly": false,             "subPath": "/output"           }         ]       }     ],     "hostNetwork": false,     "imagePullSecrets": [       {         "name": "c2hcred"       }     ],     "initContainers": [],     "nodeSelector": {},     "restartPolicy": "Never",     "securityContext": {},     "tolerations": [],     "volumes": [       {         "name": "data-volume",         "persistentVolumeClaim": {           "claimName": "data-pvc"         }       }     ]   } }
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 141, in run_pod_async
+    resp = self._client.create_namespaced_pod(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 7356, in create_namespaced_pod
+    return self.create_namespaced_pod_with_http_info(namespace, body, **kwargs)  # noqa: E501
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 7455, in create_namespaced_pod_with_http_info
+    return self.api_client.call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 391, in request
+    return self.rest_client.POST(url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 275, in POST
+    return self.request("POST", url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 234, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (422)
+Reason: Unprocessable Entity
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b2ffba5c-4201-499c-a40d-441a236db254', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '2ffa0171-8931-48d9-9da8-0078982a3504', 'X-Kubernetes-Pf-Prioritylevel-Uid': '7c274def-b891-453b-ba9b-67a9fe3902e1', 'Date': 'Tue, 27 Jun 2023 08:01:36 GMT', 'Content-Length': '926'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Pod \"detect-images-te97zxh5\" is invalid: [spec.containers[0].volumeMounts.subPath: Invalid value: \"/input\": must be a relative path, spec.containers[0].volumeMounts[1].mountPath: Invalid value: \"/data\": must be unique, spec.containers[0].volumeMounts.subPath: Invalid value: \"/output\": must be a relative path]","reason":"Invalid","details":{"name":"detect-images-te97zxh5","kind":"Pod","causes":[{"reason":"FieldValueInvalid","message":"Invalid value: \"/input\": must be a relative path","field":"spec.containers[0].volumeMounts.subPath"},{"reason":"FieldValueInvalid","message":"Invalid value: \"/data\": must be unique","field":"spec.containers[0].volumeMounts[1].mountPath"},{"reason":"FieldValueInvalid","message":"Invalid value: \"/output\": must be a relative path","field":"spec.containers[0].volumeMounts.subPath"}]},"code":422}
+
+
+[2023-06-27T08:01:36.250+0000] {kubernetes_pod.py:870} ERROR - 'NoneType' object has no attribute 'metadata'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 521, in execute_sync
+    self.pod = self.get_or_create_pod(  # must set `self.pod` for `on_kill`
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 488, in get_or_create_pod
+    self.pod_manager.create_pod(pod=pod_request_obj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 171, in create_pod
+    return self.run_pod_async(pod)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 149, in run_pod_async
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 141, in run_pod_async
+    resp = self._client.create_namespaced_pod(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 7356, in create_namespaced_pod
+    return self.create_namespaced_pod_with_http_info(namespace, body, **kwargs)  # noqa: E501
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 7455, in create_namespaced_pod_with_http_info
+    return self.api_client.call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 391, in request
+    return self.rest_client.POST(url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 275, in POST
+    return self.request("POST", url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 234, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (422)
+Reason: Unprocessable Entity
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b2ffba5c-4201-499c-a40d-441a236db254', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '2ffa0171-8931-48d9-9da8-0078982a3504', 'X-Kubernetes-Pf-Prioritylevel-Uid': '7c274def-b891-453b-ba9b-67a9fe3902e1', 'Date': 'Tue, 27 Jun 2023 08:01:36 GMT', 'Content-Length': '926'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Pod \"detect-images-te97zxh5\" is invalid: [spec.containers[0].volumeMounts.subPath: Invalid value: \"/input\": must be a relative path, spec.containers[0].volumeMounts[1].mountPath: Invalid value: \"/data\": must be unique, spec.containers[0].volumeMounts.subPath: Invalid value: \"/output\": must be a relative path]","reason":"Invalid","details":{"name":"detect-images-te97zxh5","kind":"Pod","causes":[{"reason":"FieldValueInvalid","message":"Invalid value: \"/input\": must be a relative path","field":"spec.containers[0].volumeMounts.subPath"},{"reason":"FieldValueInvalid","message":"Invalid value: \"/data\": must be unique","field":"spec.containers[0].volumeMounts[1].mountPath"},{"reason":"FieldValueInvalid","message":"Invalid value: \"/output\": must be a relative path","field":"spec.containers[0].volumeMounts.subPath"}]},"code":422}
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 713, in patch_already_checked
+    name=pod.metadata.name,
+AttributeError: 'NoneType' object has no attribute 'metadata'
+[2023-06-27T08:01:36.263+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 521, in execute_sync
+    self.pod = self.get_or_create_pod(  # must set `self.pod` for `on_kill`
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 488, in get_or_create_pod
+    self.pod_manager.create_pod(pod=pod_request_obj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 171, in create_pod
+    return self.run_pod_async(pod)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 149, in run_pod_async
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 141, in run_pod_async
+    resp = self._client.create_namespaced_pod(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 7356, in create_namespaced_pod
+    return self.create_namespaced_pod_with_http_info(namespace, body, **kwargs)  # noqa: E501
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 7455, in create_namespaced_pod_with_http_info
+    return self.api_client.call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 391, in request
+    return self.rest_client.POST(url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 275, in POST
+    return self.request("POST", url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 234, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (422)
+Reason: Unprocessable Entity
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b2ffba5c-4201-499c-a40d-441a236db254', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '2ffa0171-8931-48d9-9da8-0078982a3504', 'X-Kubernetes-Pf-Prioritylevel-Uid': '7c274def-b891-453b-ba9b-67a9fe3902e1', 'Date': 'Tue, 27 Jun 2023 08:01:36 GMT', 'Content-Length': '926'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Pod \"detect-images-te97zxh5\" is invalid: [spec.containers[0].volumeMounts.subPath: Invalid value: \"/input\": must be a relative path, spec.containers[0].volumeMounts[1].mountPath: Invalid value: \"/data\": must be unique, spec.containers[0].volumeMounts.subPath: Invalid value: \"/output\": must be a relative path]","reason":"Invalid","details":{"name":"detect-images-te97zxh5","kind":"Pod","causes":[{"reason":"FieldValueInvalid","message":"Invalid value: \"/input\": must be a relative path","field":"spec.containers[0].volumeMounts.subPath"},{"reason":"FieldValueInvalid","message":"Invalid value: \"/data\": must be unique","field":"spec.containers[0].volumeMounts[1].mountPath"},{"reason":"FieldValueInvalid","message":"Invalid value: \"/output\": must be a relative path","field":"spec.containers[0].volumeMounts.subPath"}]},"code":422}
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 516, in execute
+    return self.execute_sync(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 545, in execute_sync
+    self.cleanup(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 671, in cleanup
+    raise AirflowException(
+airflow.exceptions.AirflowException: Pod detect-images-te97zxh5 returned a failure:
+
+remote_pod: None
+[2023-06-27T08:01:36.265+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=yolov5_ml_pipeline, task_id=detect_images, execution_date=20230627T080054, start_date=20230627T080134, end_date=20230627T080136
+[2023-06-27T08:01:36.277+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 245 for task detect_images (Pod detect-images-te97zxh5 returned a failure:
+
+remote_pod: None; 107)
+[2023-06-27T08:01:36.293+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-06-27T08:01:36.317+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,580 @@
+[2023-06-26T02:03:36.678+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: text_hello.hello_task manual__2023-06-26T02:02:56.029166+00:00 [queued]>
+[2023-06-26T02:03:36.688+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: text_hello.hello_task manual__2023-06-26T02:02:56.029166+00:00 [queued]>
+[2023-06-26T02:03:36.688+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-26T02:03:36.688+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-06-26T02:03:36.688+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-26T02:03:36.707+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): hello_task> on 2023-06-26 02:02:56.029166+00:00
+[2023-06-26T02:03:36.709+0000] {standard_task_runner.py:55} INFO - Started process 106 to run task
+[2023-06-26T02:03:36.712+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'text_hello', 'hello_task', 'manual__2023-06-26T02:02:56.029166+00:00', '--job-id', '223', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesExecutor_sample.py', '--cfg-path', '/tmp/tmp1l2qfii5']
+[2023-06-26T02:03:36.713+0000] {standard_task_runner.py:83} INFO - Job 223: Subtask hello_task
+[2023-06-26T02:03:37.252+0000] {task_command.py:389} INFO - Running <TaskInstance: text_hello.hello_task manual__2023-06-26T02:02:56.029166+00:00 [running]> on host text-hello-hello-task-076d0ff823ce40b2ae83c55b75597288
+[2023-06-26T02:03:38.057+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-06-26T02:03:38.058+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-06-26T02:03:38.058+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
+[2023-06-26T02:03:38.097+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=text_hello
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-26T02:02:56.029166+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-26T02:02:56.029166+00:00
+[2023-06-26T02:03:38.104+0000] {kubernetes_pod.py:815} INFO - Building pod text-hello-pod-vvtwywvp with labels: {'dag_id': 'text_hello', 'task_id': 'hello_task', 'run_id': 'manual__2023-06-26T020256.0291660000-34f441042', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
+[2023-06-26T02:03:38.168+0000] {kubernetes_pod.py:476} INFO - Found matching pod text-hello-pod-vvtwywvp with labels {'airflow_kpo_in_cluster': 'True', 'airflow_version': '2.5.3', 'dag_id': 'text_hello', 'kubernetes_pod_operator': 'True', 'run_id': 'manual__2023-06-26T020256.0291660000-34f441042', 'task_id': 'hello_task', 'try_number': '1'}
+[2023-06-26T02:03:38.168+0000] {kubernetes_pod.py:477} INFO - `try_number` of task_instance: 1
+[2023-06-26T02:03:38.168+0000] {kubernetes_pod.py:478} INFO - `try_number` of pod: 1
+[2023-06-26T02:03:38.174+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:39.187+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:40.195+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:41.237+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:42.249+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:43.271+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:44.304+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:45.327+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:46.339+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:47.352+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:48.379+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:49.421+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:50.431+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:51.448+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:52.462+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:53.475+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:54.500+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:55.525+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:56.540+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:57.552+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:58.575+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:03:59.589+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:00.615+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:01.631+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:02.647+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:03.660+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:04.672+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:05.682+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:06.697+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:07.711+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:08.720+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:09.737+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:10.755+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:11.789+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:12.824+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:13.837+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:14.863+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:15.877+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:16.904+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:17.927+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:18.943+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:19.956+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:20.967+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:21.983+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:22.995+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:24.007+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:25.024+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:26.038+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:27.071+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:28.087+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:29.113+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:30.126+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:31.140+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:32.155+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:33.170+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:34.184+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:35.199+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:36.212+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:37.227+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:38.240+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:39.252+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:40.266+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:41.282+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:42.292+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:43.309+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:44.326+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:45.340+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:46.348+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:47.359+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:48.385+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:49.398+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:50.427+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:51.441+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:52.457+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:53.484+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:54.520+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:55.533+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:56.545+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:57.561+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:58.572+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:04:59.602+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:00.623+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:01.635+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:02.654+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:03.663+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:04.677+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:05.689+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:06.704+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:07.719+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:08.727+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:09.743+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:10.757+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:11.775+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:12.807+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:13.825+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:14.844+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:15.857+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:16.871+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:17.885+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:18.914+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:19.926+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:20.940+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:21.975+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:22.983+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:24.011+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:25.022+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:26.035+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:27.049+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:28.060+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:29.076+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:30.116+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:31.136+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:32.147+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:33.158+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:34.168+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:35.185+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:36.215+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:37.232+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:38.244+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:38.266+0000] {kubernetes_pod.py:688} INFO - Deleting pod: text-hello-pod-vvtwywvp
+[2023-06-26T02:05:38.294+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 527, in execute_sync
+    self.await_pod_start(pod=self.pod)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 494, in await_pod_start
+    self.pod_manager.await_pod_start(pod=pod, startup_timeout=self.startup_timeout_seconds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/utils/pod_manager.py", line 194, in await_pod_start
+    raise PodLaunchFailedException(msg)
+airflow.providers.cncf.kubernetes.utils.pod_manager.PodLaunchFailedException: Pod took longer than 120 seconds to start. Check the pod events in kubernetes to determine why.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 516, in execute
+    return self.execute_sync(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 545, in execute_sync
+    self.cleanup(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 671, in cleanup
+    raise AirflowException(
+airflow.exceptions.AirflowException: Pod text-hello-pod-vvtwywvp returned a failure:
+
+remote_pod: {'api_version': None,
+ 'kind': None,
+ 'metadata': {'annotations': None,
+              'cluster_name': None,
+              'creation_timestamp': datetime.datetime(2023, 6, 26, 2, 3, 38, tzinfo=tzlocal()),
+              'deletion_grace_period_seconds': None,
+              'deletion_timestamp': None,
+              'finalizers': None,
+              'generate_name': None,
+              'generation': None,
+              'labels': {'***_kpo_in_cluster': 'True',
+                         '***_version': '2.5.3',
+                         'dag_id': 'text_hello',
+                         'kubernetes_pod_operator': 'True',
+                         'run_id': 'manual__2023-06-26T020256.0291660000-34f441042',
+                         'task_id': 'hello_task',
+                         'try_number': '1'},
+              'managed_fields': [{'api_version': 'v1',
+                                  'fields_type': 'FieldsV1',
+                                  'fields_v1': {'f:metadata': {'f:labels': {'.': {},
+                                                                            'f:***_kpo_in_cluster': {},
+                                                                            'f:***_version': {},
+                                                                            'f:dag_id': {},
+                                                                            'f:kubernetes_pod_operator': {},
+                                                                            'f:run_id': {},
+                                                                            'f:task_id': {},
+                                                                            'f:try_number': {}}},
+                                                'f:spec': {'f:affinity': {},
+                                                           'f:containers': {'k:{"name":"base"}': {'.': {},
+                                                                                                  'f:image': {},
+                                                                                                  'f:imagePullPolicy': {},
+                                                                                                  'f:name': {},
+                                                                                                  'f:resources': {},
+                                                                                                  'f:terminationMessagePath': {},
+                                                                                                  'f:terminationMessagePolicy': {}}},
+                                                           'f:dnsPolicy': {},
+                                                           'f:enableServiceLinks': {},
+                                                           'f:imagePullSecrets': {'.': {},
+                                                                                  'k:{"name":"regcred"}': {}},
+                                                           'f:restartPolicy': {},
+                                                           'f:schedulerName': {},
+                                                           'f:securityContext': {},
+                                                           'f:terminationGracePeriodSeconds': {}}},
+                                  'manager': 'OpenAPI-Generator',
+                                  'operation': 'Update',
+                                  'subresource': None,
+                                  'time': datetime.datetime(2023, 6, 26, 2, 3, 38, tzinfo=tzlocal())}],
+              'name': 'text-hello-pod-vvtwywvp',
+              'namespace': '***-cluster',
+              'owner_references': None,
+              'resource_version': '19245874',
+              'self_link': None,
+              'uid': 'ccee6aa9-0bac-4226-be86-5b4e578c7de1'},
+ 'spec': {'active_deadline_seconds': None,
+          'affinity': {'node_affinity': None,
+                       'pod_affinity': None,
+                       'pod_anti_affinity': None},
+          'automount_service_account_token': None,
+          'containers': [{'args': None,
+                          'command': None,
+                          'env': None,
+                          'env_from': None,
+                          'image': 'text_hello:v0.4',
+                          'image_pull_policy': 'IfNotPresent',
+                          'lifecycle': None,
+                          'liveness_probe': None,
+                          'name': 'base',
+                          'ports': None,
+                          'readiness_probe': None,
+                          'resources': {'limits': None, 'requests': None},
+                          'security_context': None,
+                          'startup_probe': None,
+                          'stdin': None,
+                          'stdin_once': None,
+                          'termination_message_path': '/dev/termination-log',
+                          'termination_message_policy': 'File',
+                          'tty': None,
+                          'volume_devices': None,
+                          'volume_mounts': [{'mount_path': '/var/run/secrets/kubernetes.io/serviceaccount',
+                                             'mount_propagation': None,
+                                             'name': 'kube-api-access-2vd2j',
+                                             'read_only': True,
+                                             'sub_path': None,
+                                             'sub_path_expr': None}],
+                          'working_dir': None}],
+          'dns_config': None,
+          'dns_policy': 'ClusterFirst',
+          'enable_service_links': True,
+          'ephemeral_containers': None,
+          'host_aliases': None,
+          'host_ipc': None,
+          'host_network': None,
+          'host_pid': None,
+          'hostname': None,
+          'image_pull_secrets': [{'name': 'regcred'}],
+          'init_containers': None,
+          'node_name': 'desk2',
+          'node_selector': None,
+          'os': None,
+          'overhead': None,
+          'preemption_policy': 'PreemptLowerPriority',
+          'priority': 0,
+          'priority_class_name': None,
+          'readiness_gates': None,
+          'restart_policy': 'Never',
+          'runtime_class_name': None,
+          'scheduler_name': 'default-scheduler',
+          'security_context': {'fs_group': None,
+                               'fs_group_change_policy': None,
+                               'run_as_group': None,
+                               'run_as_non_root': None,
+                               'run_as_user': None,
+                               'se_linux_options': None,
+                               'seccomp_profile': None,
+                               'supplemental_groups': None,
+                               'sysctls': None,
+                               'windows_options': None},
+          'service_account': 'default',
+          'service_account_name': 'default',
+          'set_hostname_as_fqdn': None,
+          'share_process_namespace': None,
+          'subdomain': None,
+          'termination_grace_period_seconds': 30,
+          'tolerations': [{'effect': 'NoExecute',
+                           'key': 'node.kubernetes.io/not-ready',
+                           'operator': 'Exists',
+                           'toleration_seconds': 300,
+                           'value': None},
+                          {'effect': 'NoExecute',
+                           'key': 'node.kubernetes.io/unreachable',
+                           'operator': 'Exists',
+                           'toleration_seconds': 300,
+                           'value': None}],
+          'topology_spread_constraints': None,
+          'volumes': [{'aws_elastic_block_store': None,
+                       'azure_disk': None,
+                       'azure_file': None,
+                       'cephfs': None,
+                       'cinder': None,
+                       'config_map': None,
+                       'csi': None,
+                       'downward_api': None,
+                       'empty_dir': None,
+                       'ephemeral': None,
+                       'fc': None,
+                       'flex_volume': None,
+                       'flocker': None,
+                       'gce_persistent_disk': None,
+                       'git_repo': None,
+                       'glusterfs': None,
+                       'host_path': None,
+                       'iscsi': None,
+                       'name': 'kube-api-access-2vd2j',
+                       'nfs': None,
+                       'persistent_volume_claim': None,
+                       'photon_persistent_disk': None,
+                       'portworx_volume': None,
+                       'projected': {'default_mode': 420,
+                                     'sources': [{'config_map': None,
+                                                  'downward_api': None,
+                                                  'secret': None,
+                                                  'service_account_token': {'audience': None,
+                                                                            'expiration_seconds': 3607,
+                                                                            'path': 'token'}},
+                                                 {'config_map': {'items': [{'key': 'ca.crt',
+                                                                            'mode': None,
+                                                                            'path': 'ca.crt'}],
+                                                                 'name': 'kube-root-ca.crt',
+                                                                 'optional': None},
+                                                  'downward_api': None,
+                                                  'secret': None,
+                                                  'service_account_token': None},
+                                                 {'config_map': None,
+                                                  'downward_api': {'items': [{'field_ref': {'api_version': 'v1',
+                                                                                            'field_path': 'metadata.namespace'},
+                                                                              'mode': None,
+                                                                              'path': 'namespace',
+                                                                              'resource_field_ref': None}]},
+                                                  'secret': None,
+                                                  'service_account_token': None}]},
+                       'quobyte': None,
+                       'rbd': None,
+                       'scale_io': None,
+                       'secret': None,
+                       'storageos': None,
+                       'vsphere_volume': None}]},
+ 'status': {'conditions': [{'last_probe_time': None,
+                            'last_transition_time': datetime.datetime(2023, 6, 26, 2, 3, 38, tzinfo=tzlocal()),
+                            'message': None,
+                            'reason': None,
+                            'status': 'True',
+                            'type': 'PodScheduled'}],
+            'container_statuses': None,
+            'ephemeral_container_statuses': None,
+            'host_ip': None,
+            'init_container_statuses': None,
+            'message': None,
+            'nominated_node_name': None,
+            'phase': 'Pending',
+            'pod_i_ps': None,
+            'pod_ip': None,
+            'qos_class': 'BestEffort',
+            'reason': None,
+            'start_time': None}}
+[2023-06-26T02:05:38.297+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=text_hello, task_id=hello_task, execution_date=20230626T020256, start_date=20230626T020336, end_date=20230626T020538
+[2023-06-26T02:05:38.307+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 223 for task hello_task (Pod text-hello-pod-vvtwywvp returned a failure:
+
+remote_pod: {'api_version': None,
+ 'kind': None,
+ 'metadata': {'annotations': None,
+              'cluster_name': None,
+              'creation_timestamp': datetime.datetime(2023, 6, 26, 2, 3, 38, tzinfo=tzlocal()),
+              'deletion_grace_period_seconds': None,
+              'deletion_timestamp': None,
+              'finalizers': None,
+              'generate_name': None,
+              'generation': None,
+              'labels': {'***_kpo_in_cluster': 'True',
+                         '***_version': '2.5.3',
+                         'dag_id': 'text_hello',
+                         'kubernetes_pod_operator': 'True',
+                         'run_id': 'manual__2023-06-26T020256.0291660000-34f441042',
+                         'task_id': 'hello_task',
+                         'try_number': '1'},
+              'managed_fields': [{'api_version': 'v1',
+                                  'fields_type': 'FieldsV1',
+                                  'fields_v1': {'f:metadata': {'f:labels': {'.': {},
+                                                                            'f:***_kpo_in_cluster': {},
+                                                                            'f:***_version': {},
+                                                                            'f:dag_id': {},
+                                                                            'f:kubernetes_pod_operator': {},
+                                                                            'f:run_id': {},
+                                                                            'f:task_id': {},
+                                                                            'f:try_number': {}}},
+                                                'f:spec': {'f:affinity': {},
+                                                           'f:containers': {'k:{"name":"base"}': {'.': {},
+                                                                                                  'f:image': {},
+                                                                                                  'f:imagePullPolicy': {},
+                                                                                                  'f:name': {},
+                                                                                                  'f:resources': {},
+                                                                                                  'f:terminationMessagePath': {},
+                                                                                                  'f:terminationMessagePolicy': {}}},
+                                                           'f:dnsPolicy': {},
+                                                           'f:enableServiceLinks': {},
+                                                           'f:imagePullSecrets': {'.': {},
+                                                                                  'k:{"name":"regcred"}': {}},
+                                                           'f:restartPolicy': {},
+                                                           'f:schedulerName': {},
+                                                           'f:securityContext': {},
+                                                           'f:terminationGracePeriodSeconds': {}}},
+                                  'manager': 'OpenAPI-Generator',
+                                  'operation': 'Update',
+                                  'subresource': None,
+                                  'time': datetime.datetime(2023, 6, 26, 2, 3, 38, tzinfo=tzlocal())}],
+              'name': 'text-hello-pod-vvtwywvp',
+              'namespace': '***-cluster',
+              'owner_references': None,
+              'resource_version': '19245874',
+              'self_link': None,
+              'uid': 'ccee6aa9-0bac-4226-be86-5b4e578c7de1'},
+ 'spec': {'active_deadline_seconds': None,
+          'affinity': {'node_affinity': None,
+                       'pod_affinity': None,
+                       'pod_anti_affinity': None},
+          'automount_service_account_token': None,
+          'containers': [{'args': None,
+                          'command': None,
+                          'env': None,
+                          'env_from': None,
+                          'image': 'text_hello:v0.4',
+                          'image_pull_policy': 'IfNotPresent',
+                          'lifecycle': None,
+                          'liveness_probe': None,
+                          'name': 'base',
+                          'ports': None,
+                          'readiness_probe': None,
+                          'resources': {'limits': None, 'requests': None},
+                          'security_context': None,
+                          'startup_probe': None,
+                          'stdin': None,
+                          'stdin_once': None,
+                          'termination_message_path': '/dev/termination-log',
+                          'termination_message_policy': 'File',
+                          'tty': None,
+                          'volume_devices': None,
+                          'volume_mounts': [{'mount_path': '/var/run/secrets/kubernetes.io/serviceaccount',
+                                             'mount_propagation': None,
+                                             'name': 'kube-api-access-2vd2j',
+                                             'read_only': True,
+                                             'sub_path': None,
+                                             'sub_path_expr': None}],
+                          'working_dir': None}],
+          'dns_config': None,
+          'dns_policy': 'ClusterFirst',
+          'enable_service_links': True,
+          'ephemeral_containers': None,
+          'host_aliases': None,
+          'host_ipc': None,
+          'host_network': None,
+          'host_pid': None,
+          'hostname': None,
+          'image_pull_secrets': [{'name': 'regcred'}],
+          'init_containers': None,
+          'node_name': 'desk2',
+          'node_selector': None,
+          'os': None,
+          'overhead': None,
+          'preemption_policy': 'PreemptLowerPriority',
+          'priority': 0,
+          'priority_class_name': None,
+          'readiness_gates': None,
+          'restart_policy': 'Never',
+          'runtime_class_name': None,
+          'scheduler_name': 'default-scheduler',
+          'security_context': {'fs_group': None,
+                               'fs_group_change_policy': None,
+                               'run_as_group': None,
+                               'run_as_non_root': None,
+                               'run_as_user': None,
+                               'se_linux_options': None,
+                               'seccomp_profile': None,
+                               'supplemental_groups': None,
+                               'sysctls': None,
+                               'windows_options': None},
+          'service_account': 'default',
+          'service_account_name': 'default',
+          'set_hostname_as_fqdn': None,
+          'share_process_namespace': None,
+          'subdomain': None,
+          'termination_grace_period_seconds': 30,
+          'tolerations': [{'effect': 'NoExecute',
+                           'key': 'node.kubernetes.io/not-ready',
+                           'operator': 'Exists',
+                           'toleration_seconds': 300,
+                           'value': None},
+                          {'effect': 'NoExecute',
+                           'key': 'node.kubernetes.io/unreachable',
+                           'operator': 'Exists',
+                           'toleration_seconds': 300,
+                           'value': None}],
+          'topology_spread_constraints': None,
+          'volumes': [{'aws_elastic_block_store': None,
+                       'azure_disk': None,
+                       'azure_file': None,
+                       'cephfs': None,
+                       'cinder': None,
+                       'config_map': None,
+                       'csi': None,
+                       'downward_api': None,
+                       'empty_dir': None,
+                       'ephemeral': None,
+                       'fc': None,
+                       'flex_volume': None,
+                       'flocker': None,
+                       'gce_persistent_disk': None,
+                       'git_repo': None,
+                       'glusterfs': None,
+                       'host_path': None,
+                       'iscsi': None,
+                       'name': 'kube-api-access-2vd2j',
+                       'nfs': None,
+                       'persistent_volume_claim': None,
+                       'photon_persistent_disk': None,
+                       'portworx_volume': None,
+                       'projected': {'default_mode': 420,
+                                     'sources': [{'config_map': None,
+                                                  'downward_api': None,
+                                                  'secret': None,
+                                                  'service_account_token': {'audience': None,
+                                                                            'expiration_seconds': 3607,
+                                                                            'path': 'token'}},
+                                                 {'config_map': {'items': [{'key': 'ca.crt',
+                                                                            'mode': None,
+                                                                            'path': 'ca.crt'}],
+                                                                 'name': 'kube-root-ca.crt',
+                                                                 'optional': None},
+                                                  'downward_api': None,
+                                                  'secret': None,
+                                                  'service_account_token': None},
+                                                 {'config_map': None,
+                                                  'downward_api': {'items': [{'field_ref': {'api_version': 'v1',
+                                                                                            'field_path': 'metadata.namespace'},
+                                                                              'mode': None,
+                                                                              'path': 'namespace',
+                                                                              'resource_field_ref': None}]},
+                                                  'secret': None,
+                                                  'service_account_token': None}]},
+                       'quobyte': None,
+                       'rbd': None,
+                       'scale_io': None,
+                       'secret': None,
+                       'storageos': None,
+                       'vsphere_volume': None}]},
+ 'status': {'conditions': [{'last_probe_time': None,
+                            'last_transition_time': datetime.datetime(2023, 6, 26, 2, 3, 38, tzinfo=tzlocal()),
+                            'message': None,
+                            'reason': None,
+                            'status': 'True',
+                            'type': 'PodScheduled'}],
+            'container_statuses': None,
+            'ephemeral_container_statuses': None,
+            'host_ip': None,
+            'init_container_statuses': None,
+            'message': None,
+            'nominated_node_name': None,
+            'phase': 'Pending',
+            'pod_i_ps': None,
+            'pod_ip': None,
+            'qos_class': 'BestEffort',
+            'reason': None,
+            'start_time': None}}; 106)
+[2023-06-26T02:05:38.347+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-06-26T02:05:38.370+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

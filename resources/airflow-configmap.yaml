@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: airflow-configmap
+data:
+  airflow.cfg: |
+    {{ tpl (.Files.Get "airflow.cfg") . | indent 4 }}

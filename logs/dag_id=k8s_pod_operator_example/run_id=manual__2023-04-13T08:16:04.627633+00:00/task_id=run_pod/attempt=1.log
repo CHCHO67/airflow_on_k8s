@@ -1,0 +1,109 @@
+[2023-04-13T08:16:18.171+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: k8s_pod_operator_example.run_pod manual__2023-04-13T08:16:04.627633+00:00 [queued]>
+[2023-04-13T08:16:18.178+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: k8s_pod_operator_example.run_pod manual__2023-04-13T08:16:04.627633+00:00 [queued]>
+[2023-04-13T08:16:18.178+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-13T08:16:18.178+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-13T08:16:18.179+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-13T08:16:18.189+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): run_pod> on 2023-04-13 08:16:04.627633+00:00
+[2023-04-13T08:16:18.192+0000] {standard_task_runner.py:55} INFO - Started process 106 to run task
+[2023-04-13T08:16:18.194+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'k8s_pod_operator_example', 'run_pod', 'manual__2023-04-13T08:16:04.627633+00:00', '--job-id', '248', '--raw', '--subdir', 'DAGS_FOLDER/KPO_test.py', '--cfg-path', '/tmp/tmp58ui8ycp']
+[2023-04-13T08:16:18.195+0000] {standard_task_runner.py:83} INFO - Job 248: Subtask run_pod
+[2023-04-13T08:16:18.714+0000] {task_command.py:389} INFO - Running <TaskInstance: k8s_pod_operator_example.run_pod manual__2023-04-13T08:16:04.627633+00:00 [running]> on host k8s-pod-operator-example-run-p-d53a09e0d3eb478a917493c3a2f4909a
+[2023-04-13T08:16:19.392+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:37 DeprecationWarning: The pod_template_file option in [kubernetes] has been moved to the pod_template_file option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-04-13T08:16:19.394+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:47 DeprecationWarning: The worker_container_repository option in [kubernetes] has been moved to the worker_container_repository option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-04-13T08:16:19.396+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:48 DeprecationWarning: The worker_container_tag option in [kubernetes] has been moved to the worker_container_tag option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-04-13T08:16:19.398+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-04-13T08:16:19.399+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-04-13T08:16:19.401+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
+[2023-04-13T08:16:19.437+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=k8s_pod_operator_example
+AIRFLOW_CTX_TASK_ID=run_pod
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-13T08:16:04.627633+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-13T08:16:04.627633+00:00
+[2023-04-13T08:16:19.437+0000] {pod_generator.py:424} WARNING - Model file /mnt/shared/***/pod_template.yaml does not exist
+[2023-04-13T08:16:19.440+0000] {kubernetes_pod.py:815} INFO - Building pod my-pod-uwua81m9 with labels: {'dag_id': 'k8s_pod_operator_example', 'task_id': 'run_pod', 'run_id': 'manual__2023-04-13T081604.6276330000-f0461dcf3', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
+[2023-04-13T08:16:19.463+0000] {kubernetes_pod.py:870} ERROR - 'NoneType' object has no attribute 'metadata'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 521, in execute_sync
+    self.pod = self.get_or_create_pod(  # must set `self.pod` for `on_kill`
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 483, in get_or_create_pod
+    pod = self.find_pod(self.namespace or pod_request_obj.metadata.namespace, context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 465, in find_pod
+    pod_list = self.client.list_namespaced_pod(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 15697, in list_namespaced_pod
+    return self.list_namespaced_pod_with_http_info(namespace, **kwargs)  # noqa: E501
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 15812, in list_namespaced_pod_with_http_info
+    return self.api_client.call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 240, in GET
+    return self.request("GET", url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 234, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '9a5b704e-8fe3-4217-bb94-cc7e27676b4f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Content-Type-Options': 'nosniff', 'X-Kubernetes-Pf-Flowschema-Uid': '2ffa0171-8931-48d9-9da8-0078982a3504', 'X-Kubernetes-Pf-Prioritylevel-Uid': '7c274def-b891-453b-ba9b-67a9fe3902e1', 'Date': 'Thu, 13 Apr 2023 08:16:19 GMT', 'Content-Length': '298'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"pods is forbidden: User \"system:serviceaccount:airflow-cluster:airflow-cluster\" cannot list resource \"pods\" in API group \"\" in the namespace \"airflow\"","reason":"Forbidden","details":{"kind":"pods"},"code":403}
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 713, in patch_already_checked
+    name=pod.metadata.name,
+AttributeError: 'NoneType' object has no attribute 'metadata'
+[2023-04-13T08:16:19.497+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 521, in execute_sync
+    self.pod = self.get_or_create_pod(  # must set `self.pod` for `on_kill`
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 483, in get_or_create_pod
+    pod = self.find_pod(self.namespace or pod_request_obj.metadata.namespace, context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 465, in find_pod
+    pod_list = self.client.list_namespaced_pod(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 15697, in list_namespaced_pod
+    return self.list_namespaced_pod_with_http_info(namespace, **kwargs)  # noqa: E501
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api/core_v1_api.py", line 15812, in list_namespaced_pod_with_http_info
+    return self.api_client.call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 240, in GET
+    return self.request("GET", url,
+  File "/home/airflow/.local/lib/python3.8/site-packages/kubernetes/client/rest.py", line 234, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '9a5b704e-8fe3-4217-bb94-cc7e27676b4f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Content-Type-Options': 'nosniff', 'X-Kubernetes-Pf-Flowschema-Uid': '2ffa0171-8931-48d9-9da8-0078982a3504', 'X-Kubernetes-Pf-Prioritylevel-Uid': '7c274def-b891-453b-ba9b-67a9fe3902e1', 'Date': 'Thu, 13 Apr 2023 08:16:19 GMT', 'Content-Length': '298'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"pods is forbidden: User \"system:serviceaccount:airflow-cluster:airflow-cluster\" cannot list resource \"pods\" in API group \"\" in the namespace \"airflow\"","reason":"Forbidden","details":{"kind":"pods"},"code":403}
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 516, in execute
+    return self.execute_sync(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 545, in execute_sync
+    self.cleanup(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 671, in cleanup
+    raise AirflowException(
+airflow.exceptions.AirflowException: Pod my-pod-uwua81m9 returned a failure:
+
+remote_pod: None
+[2023-04-13T08:16:19.500+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=k8s_pod_operator_example, task_id=run_pod, execution_date=20230413T081604, start_date=20230413T081618, end_date=20230413T081619
+[2023-04-13T08:16:19.512+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 248 for task run_pod (Pod my-pod-uwua81m9 returned a failure:
+
+remote_pod: None; 106)
+[2023-04-13T08:16:19.569+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-13T08:16:19.627+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

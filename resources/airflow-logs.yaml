@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: airflow-local-logs-folder
+  labels:
+    type: nfs
+spec:
+  storageClassName: logs
+  capacity:
+    storage: 2Gi
+  accessModes:
+    - ReadWriteMany
+  nfs:
+    path: "/mnt/shared/airflow/logs"
+    server: 192.168.20.3
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: airflow-local-logs-folder
+  namespace: airflow-cluster
+spec:
+  storageClassName: logs
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 2Gi

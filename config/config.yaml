@@ -1,0 +1,10 @@
+# config.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: airflow-webserver-config
+  namespace: airflow
+data:
+  webserver_config.py: |
+    APP_THEME = "flatly.css"
+

@@ -1,0 +1,20 @@
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim-buster
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Add requirements.txt to the docker image and install packages
+ADD requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
+
+# Add your python script to the docker image
+ADD hello_world.py /app/hello_world.py
+
+# Make your script executable
+RUN chmod +x /app/hello_world.py
+
+RUN mkdir /data
+
+# Run hello_world.py when the container launches
+CMD ["python", "/app/hello_world.py"]

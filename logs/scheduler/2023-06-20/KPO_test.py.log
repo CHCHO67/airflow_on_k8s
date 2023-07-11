@@ -1,0 +1,1302 @@
+[2023-06-20T00:00:00.779+0000] {processor.py:153} INFO - Started process (PID=187504) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:00:00.780+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:00:00.780+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:00:00.780+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:00:00.927+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:00:00.952+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:00:00.952+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:00:00.969+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:00:00.969+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:00:00.983+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.206 seconds
+[2023-06-20T00:00:31.384+0000] {processor.py:153} INFO - Started process (PID=187613) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:00:31.384+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:00:31.385+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:00:31.385+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:00:31.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:00:31.552+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:00:31.552+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:00:31.575+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:00:31.575+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:00:31.591+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.209 seconds
+[2023-06-20T00:01:02.056+0000] {processor.py:153} INFO - Started process (PID=187722) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:01:02.057+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:01:02.057+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:01:02.057+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:01:02.197+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:01:02.220+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:01:02.220+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:01:02.235+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:01:02.235+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:01:02.250+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:01:32.697+0000] {processor.py:153} INFO - Started process (PID=187829) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:01:32.698+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:01:32.698+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:01:32.698+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:01:32.835+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:01:32.858+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:01:32.858+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:01:32.873+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:01:32.873+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:01:32.888+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T00:02:03.389+0000] {processor.py:153} INFO - Started process (PID=187937) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:02:03.390+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:02:03.391+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:02:03.390+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:02:03.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:02:03.549+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:02:03.549+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:02:03.564+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:02:03.564+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:02:03.579+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.194 seconds
+[2023-06-20T00:02:34.054+0000] {processor.py:153} INFO - Started process (PID=188046) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:02:34.054+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:02:34.055+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:02:34.055+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:02:34.232+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:02:34.255+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:02:34.255+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:02:34.271+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:02:34.270+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:02:34.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.236 seconds
+[2023-06-20T00:03:04.700+0000] {processor.py:153} INFO - Started process (PID=188158) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:03:04.701+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:03:04.701+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:03:04.701+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:03:04.869+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:03:04.892+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:03:04.892+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:03:04.910+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:03:04.910+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:03:04.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.231 seconds
+[2023-06-20T00:03:35.344+0000] {processor.py:153} INFO - Started process (PID=188264) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:03:35.345+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:03:35.345+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:03:35.345+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:03:35.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:03:35.510+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:03:35.509+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:03:35.525+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:03:35.525+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:03:35.542+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.200 seconds
+[2023-06-20T00:04:06.010+0000] {processor.py:153} INFO - Started process (PID=188376) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:04:06.011+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:04:06.011+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:04:06.011+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:04:06.153+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:04:06.176+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:04:06.176+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:04:06.191+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:04:06.191+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:04:06.206+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.199 seconds
+[2023-06-20T00:04:36.760+0000] {processor.py:153} INFO - Started process (PID=188485) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:04:36.761+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:04:36.761+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:04:36.761+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:04:36.907+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:04:36.931+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:04:36.931+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:04:36.946+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:04:36.946+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:04:36.961+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.205 seconds
+[2023-06-20T00:05:07.393+0000] {processor.py:153} INFO - Started process (PID=188591) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:05:07.393+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:05:07.394+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:05:07.394+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:05:07.548+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:05:07.570+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:05:07.570+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:05:07.585+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:05:07.585+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:05:07.601+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.211 seconds
+[2023-06-20T00:05:38.054+0000] {processor.py:153} INFO - Started process (PID=188703) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:05:38.055+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:05:38.055+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:05:38.055+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:05:38.224+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:05:38.265+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:05:38.265+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:05:38.282+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:05:38.282+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:05:38.297+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.246 seconds
+[2023-06-20T00:06:08.618+0000] {processor.py:153} INFO - Started process (PID=188808) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:06:08.619+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:06:08.619+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:06:08.619+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:06:08.759+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:06:08.780+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:06:08.779+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:06:08.795+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:06:08.795+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:06:08.810+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T00:06:39.236+0000] {processor.py:153} INFO - Started process (PID=188917) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:06:39.237+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:06:39.237+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:06:39.237+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:06:39.379+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:06:39.402+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:06:39.402+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:06:39.418+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:06:39.418+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:06:39.436+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.203 seconds
+[2023-06-20T00:07:09.842+0000] {processor.py:153} INFO - Started process (PID=189026) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:07:09.842+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:07:09.843+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:07:09.843+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:07:09.985+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:07:10.007+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:07:10.007+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:07:10.023+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:07:10.023+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:07:10.038+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.199 seconds
+[2023-06-20T00:07:40.591+0000] {processor.py:153} INFO - Started process (PID=189139) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:07:40.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:07:40.592+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:07:40.592+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:07:40.751+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:07:40.772+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:07:40.772+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:07:40.787+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:07:40.787+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:07:40.801+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T00:08:11.309+0000] {processor.py:153} INFO - Started process (PID=189258) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:08:11.310+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:08:11.310+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:08:11.310+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:08:11.472+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:08:11.495+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:08:11.494+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:08:11.511+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:08:11.511+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:08:11.527+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.221 seconds
+[2023-06-20T00:08:41.961+0000] {processor.py:153} INFO - Started process (PID=189372) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:08:41.961+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:08:41.962+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:08:41.961+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:08:42.100+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:08:42.122+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:08:42.122+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:08:42.138+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:08:42.138+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:08:42.154+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:09:12.603+0000] {processor.py:153} INFO - Started process (PID=189497) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:09:12.604+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:09:12.604+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:09:12.604+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:09:12.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:09:12.767+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:09:12.767+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:09:12.784+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:09:12.784+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:09:12.799+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.198 seconds
+[2023-06-20T00:09:43.275+0000] {processor.py:153} INFO - Started process (PID=189613) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:09:43.276+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:09:43.277+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:09:43.277+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:09:43.433+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:09:43.455+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:09:43.455+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:09:43.471+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:09:43.471+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:09:43.488+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T00:10:14.038+0000] {processor.py:153} INFO - Started process (PID=189735) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:10:14.038+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:10:14.039+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:10:14.038+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:10:14.186+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:10:14.215+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:10:14.215+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:10:14.243+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:10:14.243+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:10:14.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.223 seconds
+[2023-06-20T00:10:44.730+0000] {processor.py:153} INFO - Started process (PID=189845) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:10:44.731+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:10:44.732+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:10:44.732+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:10:44.940+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:10:44.963+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:10:44.963+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:10:44.979+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:10:44.979+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:10:44.995+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.268 seconds
+[2023-06-20T00:11:15.363+0000] {processor.py:153} INFO - Started process (PID=189954) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:11:15.364+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:11:15.364+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:11:15.364+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:11:15.526+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:11:15.548+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:11:15.548+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:11:15.565+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:11:15.565+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:11:15.581+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.220 seconds
+[2023-06-20T00:11:46.036+0000] {processor.py:153} INFO - Started process (PID=190063) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:11:46.037+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:11:46.037+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:11:46.037+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:11:46.206+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:11:46.230+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:11:46.230+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:11:46.248+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:11:46.248+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:11:46.263+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.230 seconds
+[2023-06-20T00:12:16.701+0000] {processor.py:153} INFO - Started process (PID=190169) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:12:16.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:12:16.703+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:12:16.702+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:12:16.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:12:16.904+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:12:16.904+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:12:16.925+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:12:16.925+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:12:16.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.243 seconds
+[2023-06-20T00:12:47.340+0000] {processor.py:153} INFO - Started process (PID=190280) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:12:47.341+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:12:47.341+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:12:47.341+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:12:47.489+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:12:47.522+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:12:47.522+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:12:47.546+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:12:47.546+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:12:47.560+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.222 seconds
+[2023-06-20T00:13:17.961+0000] {processor.py:153} INFO - Started process (PID=190389) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:13:17.962+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:13:17.962+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:13:17.962+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:13:18.104+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:13:18.128+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:13:18.128+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:13:18.160+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:13:18.160+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:13:18.180+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.221 seconds
+[2023-06-20T00:13:48.568+0000] {processor.py:153} INFO - Started process (PID=190498) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:13:48.568+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:13:48.569+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:13:48.569+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:13:48.706+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:13:48.729+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:13:48.729+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:13:48.748+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:13:48.748+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:13:48.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.198 seconds
+[2023-06-20T00:14:19.207+0000] {processor.py:153} INFO - Started process (PID=190607) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:14:19.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:14:19.208+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:14:19.208+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:14:19.355+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:14:19.378+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:14:19.378+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:14:19.395+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:14:19.394+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:14:19.409+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.205 seconds
+[2023-06-20T00:14:49.799+0000] {processor.py:153} INFO - Started process (PID=190716) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:14:49.799+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:14:49.800+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:14:49.799+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:14:49.958+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:14:49.985+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:14:49.984+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:14:50.000+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:14:50.000+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:14:50.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.219 seconds
+[2023-06-20T00:15:20.403+0000] {processor.py:153} INFO - Started process (PID=190821) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:15:20.405+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:15:20.405+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:15:20.405+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:15:20.575+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:15:20.600+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:15:20.599+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:15:20.616+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:15:20.615+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:15:20.630+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.231 seconds
+[2023-06-20T00:15:51.076+0000] {processor.py:153} INFO - Started process (PID=190933) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:15:51.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:15:51.077+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:15:51.077+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:15:51.271+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:15:51.295+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:15:51.295+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:15:51.311+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:15:51.311+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:15:51.330+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.257 seconds
+[2023-06-20T00:16:21.750+0000] {processor.py:153} INFO - Started process (PID=191042) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:16:21.750+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:16:21.751+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:16:21.751+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:16:21.887+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:16:21.911+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:16:21.911+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:16:21.926+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:16:21.926+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:16:21.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.194 seconds
+[2023-06-20T00:16:52.459+0000] {processor.py:153} INFO - Started process (PID=191151) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:16:52.459+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:16:52.460+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:16:52.460+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:16:52.647+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:16:52.669+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:16:52.669+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:16:52.684+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:16:52.684+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:16:52.699+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.243 seconds
+[2023-06-20T00:17:23.094+0000] {processor.py:153} INFO - Started process (PID=191257) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:17:23.095+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:17:23.095+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:17:23.095+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:17:23.261+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:17:23.282+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:17:23.282+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:17:23.298+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:17:23.298+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:17:23.313+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.222 seconds
+[2023-06-20T00:17:53.733+0000] {processor.py:153} INFO - Started process (PID=191366) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:17:53.734+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:17:53.734+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:17:53.734+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:17:53.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:17:53.897+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:17:53.897+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:17:53.913+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:17:53.913+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:17:53.927+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.197 seconds
+[2023-06-20T00:18:24.388+0000] {processor.py:153} INFO - Started process (PID=191475) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:18:24.389+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:18:24.389+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:18:24.389+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:18:24.531+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:18:24.554+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:18:24.554+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:18:24.569+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:18:24.569+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:18:24.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.198 seconds
+[2023-06-20T00:18:55.014+0000] {processor.py:153} INFO - Started process (PID=191587) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:18:55.014+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:18:55.015+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:18:55.015+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:18:55.156+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:18:55.179+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:18:55.179+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:18:55.194+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:18:55.194+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:18:55.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.199 seconds
+[2023-06-20T00:19:25.615+0000] {processor.py:153} INFO - Started process (PID=191693) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:19:25.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:19:25.616+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:19:25.616+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:19:25.755+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:19:25.777+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:19:25.777+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:19:25.792+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:19:25.791+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:19:25.808+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:19:56.236+0000] {processor.py:153} INFO - Started process (PID=191803) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:19:56.236+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:19:56.237+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:19:56.236+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:19:56.381+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:19:56.403+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:19:56.402+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:19:56.419+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:19:56.418+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:19:56.435+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.203 seconds
+[2023-06-20T00:20:26.883+0000] {processor.py:153} INFO - Started process (PID=191914) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:20:26.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:20:26.883+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:20:26.883+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:20:27.021+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:20:27.044+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:20:27.044+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:20:27.061+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:20:27.061+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:20:27.076+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:20:57.485+0000] {processor.py:153} INFO - Started process (PID=192020) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:20:57.485+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:20:57.486+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:20:57.486+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:20:57.639+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:20:57.660+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:20:57.660+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:20:57.677+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:20:57.677+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:20:57.692+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.210 seconds
+[2023-06-20T00:21:28.101+0000] {processor.py:153} INFO - Started process (PID=192132) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:21:28.101+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:21:28.102+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:21:28.102+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:21:28.293+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:21:28.316+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:21:28.315+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:21:28.331+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:21:28.330+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:21:28.347+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.249 seconds
+[2023-06-20T00:21:58.804+0000] {processor.py:153} INFO - Started process (PID=192238) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:21:58.805+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:21:58.806+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:21:58.805+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:21:58.994+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:21:59.020+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:21:59.020+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:21:59.037+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:21:59.037+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:21:59.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.252 seconds
+[2023-06-20T00:22:29.467+0000] {processor.py:153} INFO - Started process (PID=192350) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:22:29.467+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:22:29.468+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:22:29.468+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:22:29.607+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:22:29.628+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:22:29.628+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:22:29.646+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:22:29.646+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:22:29.659+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:23:00.153+0000] {processor.py:153} INFO - Started process (PID=192459) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:23:00.153+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:23:00.154+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:23:00.154+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:23:00.292+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:23:00.313+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:23:00.313+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:23:00.328+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:23:00.328+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:23:00.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:23:30.781+0000] {processor.py:153} INFO - Started process (PID=192565) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:23:30.782+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:23:30.782+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:23:30.782+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:23:30.930+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:23:30.953+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:23:30.953+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:23:30.970+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:23:30.969+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:23:30.984+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.206 seconds
+[2023-06-20T00:24:01.464+0000] {processor.py:153} INFO - Started process (PID=192675) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:24:01.465+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:24:01.466+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:24:01.466+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:24:01.605+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:24:01.626+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:24:01.626+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:24:01.642+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:24:01.642+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:24:01.657+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.197 seconds
+[2023-06-20T00:24:32.105+0000] {processor.py:153} INFO - Started process (PID=192783) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:24:32.106+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:24:32.106+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:24:32.106+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:24:32.253+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:24:32.278+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:24:32.278+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:24:32.296+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:24:32.295+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:24:32.311+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.210 seconds
+[2023-06-20T00:25:02.774+0000] {processor.py:153} INFO - Started process (PID=192892) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:25:02.775+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:25:02.775+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:25:02.775+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:25:02.937+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:25:02.962+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:25:02.962+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:25:02.981+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:25:02.981+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:25:02.999+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.227 seconds
+[2023-06-20T00:25:33.488+0000] {processor.py:153} INFO - Started process (PID=193001) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:25:33.489+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:25:33.490+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:25:33.489+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:25:33.649+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:25:33.672+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:25:33.672+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:25:33.689+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:25:33.689+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:25:33.704+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.218 seconds
+[2023-06-20T00:26:04.126+0000] {processor.py:153} INFO - Started process (PID=193113) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:26:04.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:26:04.126+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:26:04.126+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:26:04.289+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:26:04.317+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:26:04.317+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:26:04.334+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:26:04.334+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:26:04.348+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.225 seconds
+[2023-06-20T00:26:34.700+0000] {processor.py:153} INFO - Started process (PID=193222) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:26:34.701+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:26:34.701+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:26:34.701+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:26:34.849+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:26:34.872+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:26:34.871+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:26:34.888+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:26:34.888+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:26:34.902+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.205 seconds
+[2023-06-20T00:27:05.327+0000] {processor.py:153} INFO - Started process (PID=193331) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:27:05.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:27:05.329+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:27:05.329+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:27:05.491+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:27:05.521+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:27:05.521+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:27:05.549+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:27:05.548+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:27:05.564+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.240 seconds
+[2023-06-20T00:27:35.923+0000] {processor.py:153} INFO - Started process (PID=193437) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:27:35.924+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:27:35.925+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:27:35.925+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:27:36.089+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:27:36.115+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:27:36.115+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:27:36.130+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:27:36.130+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:27:36.145+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.225 seconds
+[2023-06-20T00:28:06.622+0000] {processor.py:153} INFO - Started process (PID=193545) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:28:06.622+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:28:06.623+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:28:06.623+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:28:06.808+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:28:06.839+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:28:06.839+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:28:06.857+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:28:06.857+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:28:06.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.262 seconds
+[2023-06-20T00:28:37.330+0000] {processor.py:153} INFO - Started process (PID=193657) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:28:37.331+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:28:37.332+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:28:37.331+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:28:37.482+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:28:37.505+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:28:37.505+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:28:37.522+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:28:37.522+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:28:37.538+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T00:29:07.930+0000] {processor.py:153} INFO - Started process (PID=193766) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:29:07.931+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:29:07.931+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:29:07.931+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:29:08.077+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:29:08.100+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:29:08.100+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:29:08.117+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:29:08.117+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:29:08.157+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.229 seconds
+[2023-06-20T00:29:38.528+0000] {processor.py:153} INFO - Started process (PID=193875) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:29:38.528+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:29:38.529+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:29:38.529+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:29:38.667+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:29:38.692+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:29:38.692+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:29:38.709+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:29:38.708+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:29:38.723+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.198 seconds
+[2023-06-20T00:30:09.202+0000] {processor.py:153} INFO - Started process (PID=193981) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:30:09.202+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:30:09.202+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:30:09.202+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:30:09.345+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:30:09.375+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:30:09.375+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:30:09.402+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:30:09.402+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:30:09.418+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.220 seconds
+[2023-06-20T00:30:39.915+0000] {processor.py:153} INFO - Started process (PID=194090) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:30:39.916+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:30:39.917+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:30:39.917+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:30:40.066+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:30:40.089+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:30:40.089+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:30:40.105+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:30:40.105+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:30:40.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T00:31:10.616+0000] {processor.py:153} INFO - Started process (PID=194202) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:31:10.616+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:31:10.617+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:31:10.617+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:31:10.767+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:31:10.788+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:31:10.788+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:31:10.810+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:31:10.810+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:31:10.829+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.215 seconds
+[2023-06-20T00:31:41.207+0000] {processor.py:153} INFO - Started process (PID=194312) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:31:41.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:31:41.209+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:31:41.209+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:31:41.368+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:31:41.390+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:31:41.390+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:31:41.406+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:31:41.406+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:31:41.424+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.220 seconds
+[2023-06-20T00:32:11.848+0000] {processor.py:153} INFO - Started process (PID=194435) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:32:11.849+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:32:11.850+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:32:11.850+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:32:12.010+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:32:12.036+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:32:12.036+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:32:12.054+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:32:12.054+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:32:12.069+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.224 seconds
+[2023-06-20T00:32:42.471+0000] {processor.py:153} INFO - Started process (PID=194561) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:32:42.471+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:32:42.472+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:32:42.471+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:32:42.638+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:32:42.661+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:32:42.661+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:32:42.678+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:32:42.678+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:32:42.694+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.226 seconds
+[2023-06-20T00:33:13.158+0000] {processor.py:153} INFO - Started process (PID=194677) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:33:13.158+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:33:13.159+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:33:13.159+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:33:13.312+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:33:13.338+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:33:13.338+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:33:13.355+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:33:13.355+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:33:13.370+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T00:33:43.865+0000] {processor.py:153} INFO - Started process (PID=194797) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:33:43.866+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:33:43.867+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:33:43.867+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:33:44.066+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:33:44.088+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:33:44.088+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:33:44.111+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:33:44.111+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:33:44.132+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.271 seconds
+[2023-06-20T00:34:14.573+0000] {processor.py:153} INFO - Started process (PID=194909) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:34:14.574+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:34:14.574+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:34:14.574+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:34:14.766+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:34:14.788+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:34:14.788+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:34:14.811+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:34:14.810+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:34:14.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.262 seconds
+[2023-06-20T00:34:45.180+0000] {processor.py:153} INFO - Started process (PID=195015) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:34:45.180+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:34:45.181+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:34:45.181+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:34:45.354+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:34:45.376+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:34:45.376+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:34:45.392+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:34:45.392+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:34:45.411+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.234 seconds
+[2023-06-20T00:35:15.785+0000] {processor.py:153} INFO - Started process (PID=195124) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:35:15.786+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:35:15.786+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:35:15.786+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:35:15.951+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:35:15.976+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:35:15.976+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:35:15.993+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:35:15.993+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:35:16.011+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.229 seconds
+[2023-06-20T00:35:46.462+0000] {processor.py:153} INFO - Started process (PID=195233) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:35:46.462+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:35:46.463+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:35:46.463+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:35:46.667+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:35:46.700+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:35:46.700+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:35:46.729+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:35:46.729+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:35:46.748+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.290 seconds
+[2023-06-20T00:36:17.127+0000] {processor.py:153} INFO - Started process (PID=195342) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:36:17.128+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:36:17.128+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:36:17.128+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:36:17.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:36:17.330+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:36:17.330+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:36:17.353+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:36:17.353+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:36:17.369+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.246 seconds
+[2023-06-20T00:36:47.738+0000] {processor.py:153} INFO - Started process (PID=195454) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:36:47.739+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:36:47.739+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:36:47.739+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:36:47.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:36:47.904+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:36:47.903+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:36:47.922+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:36:47.922+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:36:47.937+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.202 seconds
+[2023-06-20T00:37:18.443+0000] {processor.py:153} INFO - Started process (PID=195563) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:37:18.443+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:37:18.444+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:37:18.444+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:37:18.608+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:37:18.629+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:37:18.629+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:37:18.647+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:37:18.647+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:37:18.660+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.221 seconds
+[2023-06-20T00:37:49.043+0000] {processor.py:153} INFO - Started process (PID=195669) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:37:49.043+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:37:49.044+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:37:49.044+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:37:49.211+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:37:49.241+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:37:49.241+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:37:49.259+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:37:49.259+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:37:49.274+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.234 seconds
+[2023-06-20T00:38:19.654+0000] {processor.py:153} INFO - Started process (PID=195781) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:38:19.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:38:19.655+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:38:19.655+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:38:19.815+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:38:19.840+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:38:19.840+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:38:19.864+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:38:19.864+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:38:19.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.229 seconds
+[2023-06-20T00:38:50.285+0000] {processor.py:153} INFO - Started process (PID=195887) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:38:50.286+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:38:50.287+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:38:50.287+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:38:50.438+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:38:50.463+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:38:50.462+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:38:50.478+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:38:50.478+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:38:50.494+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T00:39:20.998+0000] {processor.py:153} INFO - Started process (PID=195999) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:39:20.999+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:39:20.999+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:39:20.999+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:39:21.154+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:39:21.176+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:39:21.176+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:39:21.195+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:39:21.195+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:39:21.211+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T00:39:51.586+0000] {processor.py:153} INFO - Started process (PID=196105) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:39:51.587+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:39:51.587+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:39:51.587+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:39:51.728+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:39:51.753+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:39:51.753+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:39:51.768+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:39:51.767+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:39:51.788+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.205 seconds
+[2023-06-20T00:40:22.296+0000] {processor.py:153} INFO - Started process (PID=196214) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:40:22.296+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:40:22.297+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:40:22.297+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:40:22.439+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:40:22.460+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:40:22.460+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:40:22.474+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:40:22.474+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:40:22.489+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T00:40:52.982+0000] {processor.py:153} INFO - Started process (PID=196323) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:40:52.983+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:40:52.983+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:40:52.983+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:40:53.141+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:40:53.163+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:40:53.163+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:40:53.179+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:40:53.179+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:40:53.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.219 seconds
+[2023-06-20T00:41:23.682+0000] {processor.py:153} INFO - Started process (PID=196432) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:41:23.683+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:41:23.683+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:41:23.683+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:41:23.827+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:41:23.853+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:41:23.853+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:41:23.869+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:41:23.869+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:41:23.884+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.205 seconds
+[2023-06-20T00:41:54.306+0000] {processor.py:153} INFO - Started process (PID=196544) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:41:54.306+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:41:54.307+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:41:54.307+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:41:54.446+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:41:54.469+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:41:54.469+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:41:54.484+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:41:54.484+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:41:54.498+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T00:42:24.936+0000] {processor.py:153} INFO - Started process (PID=196650) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:42:24.937+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:42:24.938+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:42:24.938+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:42:25.107+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:42:25.129+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:42:25.129+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:42:25.148+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:42:25.148+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:42:25.163+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.231 seconds
+[2023-06-20T00:42:55.565+0000] {processor.py:153} INFO - Started process (PID=196759) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:42:55.566+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:42:55.566+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:42:55.566+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:42:55.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:42:55.744+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:42:55.744+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:42:55.759+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:42:55.758+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:42:55.773+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.210 seconds
+[2023-06-20T00:43:26.213+0000] {processor.py:153} INFO - Started process (PID=196871) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:43:26.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:43:26.214+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:43:26.213+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:43:26.352+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:43:26.373+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:43:26.373+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:43:26.388+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:43:26.388+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:43:26.405+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T00:43:56.836+0000] {processor.py:153} INFO - Started process (PID=196979) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:43:56.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:43:56.837+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:43:56.837+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:43:56.981+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:43:57.006+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:43:57.006+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:43:57.023+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:43:57.023+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:43:57.043+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.210 seconds
+[2023-06-20T00:44:27.418+0000] {processor.py:153} INFO - Started process (PID=197084) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:44:27.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:44:27.420+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:44:27.420+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:44:27.567+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:44:27.588+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:44:27.588+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:44:27.604+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:44:27.604+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:44:27.621+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T00:44:58.043+0000] {processor.py:153} INFO - Started process (PID=197196) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:44:58.043+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:44:58.044+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:44:58.044+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:44:58.198+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:44:58.259+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:44:58.259+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:44:58.277+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:44:58.277+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:44:58.292+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.252 seconds
+[2023-06-20T00:45:28.716+0000] {processor.py:153} INFO - Started process (PID=197304) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:45:28.716+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:45:28.717+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:45:28.717+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:45:28.872+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:45:28.896+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:45:28.896+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:45:28.914+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:45:28.914+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:45:28.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T00:45:59.389+0000] {processor.py:153} INFO - Started process (PID=197410) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:45:59.390+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:45:59.391+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:45:59.391+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:45:59.539+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:45:59.560+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:45:59.560+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:45:59.575+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:45:59.574+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:45:59.590+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.204 seconds
+[2023-06-20T00:46:30.005+0000] {processor.py:153} INFO - Started process (PID=197522) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:46:30.006+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:46:30.006+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:46:30.006+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:46:30.155+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:46:30.177+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:46:30.177+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:46:30.199+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:46:30.199+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:46:30.222+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.219 seconds
+[2023-06-20T00:47:00.600+0000] {processor.py:153} INFO - Started process (PID=197631) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:47:00.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:47:00.601+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:47:00.600+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:47:00.735+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:47:00.756+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:47:00.756+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:47:00.772+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:47:00.772+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:47:00.786+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.189 seconds
+[2023-06-20T00:47:31.188+0000] {processor.py:153} INFO - Started process (PID=197740) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:47:31.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:47:31.189+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:47:31.189+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:47:31.333+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:47:31.362+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:47:31.362+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:47:31.379+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:47:31.379+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:47:31.395+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.210 seconds
+[2023-06-20T00:48:01.894+0000] {processor.py:153} INFO - Started process (PID=197849) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:48:01.894+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:48:01.894+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:48:01.894+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:48:02.039+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:48:02.062+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:48:02.062+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:48:02.078+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:48:02.078+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:48:02.092+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.201 seconds
+[2023-06-20T00:48:32.504+0000] {processor.py:153} INFO - Started process (PID=197954) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:48:32.505+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:48:32.505+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:48:32.505+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:48:32.649+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:48:32.672+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:48:32.672+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:48:32.687+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:48:32.687+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:48:32.702+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.201 seconds
+[2023-06-20T00:49:03.097+0000] {processor.py:153} INFO - Started process (PID=198066) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:49:03.098+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:49:03.098+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:49:03.098+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:49:03.279+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:49:03.306+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:49:03.306+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:49:03.332+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:49:03.332+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:49:03.350+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.256 seconds
+[2023-06-20T00:49:33.706+0000] {processor.py:153} INFO - Started process (PID=198172) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:49:33.707+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:49:33.707+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:49:33.707+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:49:33.854+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:49:33.884+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:49:33.884+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:49:33.909+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:49:33.909+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:49:33.929+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.226 seconds
+[2023-06-20T00:50:04.349+0000] {processor.py:153} INFO - Started process (PID=198284) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:50:04.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:50:04.350+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:50:04.350+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:50:04.505+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:50:04.526+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:50:04.526+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:50:04.543+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:50:04.542+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:50:04.557+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.211 seconds
+[2023-06-20T00:50:34.999+0000] {processor.py:153} INFO - Started process (PID=198390) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:50:34.999+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:50:35.000+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:50:35.000+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:50:35.141+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:50:35.163+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:50:35.163+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:50:35.179+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:50:35.179+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:50:35.193+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.198 seconds
+[2023-06-20T00:51:05.637+0000] {processor.py:153} INFO - Started process (PID=198502) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:51:05.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:51:05.638+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:51:05.638+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:51:05.776+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:51:05.798+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:51:05.798+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:51:05.814+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:51:05.813+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:51:05.828+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T00:51:36.214+0000] {processor.py:153} INFO - Started process (PID=198612) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:51:36.215+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:51:36.215+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:51:36.215+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:51:36.353+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:51:36.375+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:51:36.374+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:51:36.389+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:51:36.389+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:51:36.404+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.192 seconds
+[2023-06-20T00:52:06.859+0000] {processor.py:153} INFO - Started process (PID=198718) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:52:06.860+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:52:06.860+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:52:06.860+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:52:07.002+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:52:07.027+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:52:07.027+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:52:07.043+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:52:07.043+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:52:07.058+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.202 seconds
+[2023-06-20T00:52:37.504+0000] {processor.py:153} INFO - Started process (PID=198830) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:52:37.505+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:52:37.505+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:52:37.505+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:52:37.665+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:52:37.689+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:52:37.688+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:52:37.718+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:52:37.718+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:52:37.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.243 seconds
+[2023-06-20T00:53:08.161+0000] {processor.py:153} INFO - Started process (PID=198937) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:53:08.162+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:53:08.162+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:53:08.162+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:53:08.365+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:53:08.390+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:53:08.389+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:53:08.406+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:53:08.406+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:53:08.422+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.265 seconds
+[2023-06-20T00:53:38.852+0000] {processor.py:153} INFO - Started process (PID=199049) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:53:38.852+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:53:38.853+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:53:38.852+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:53:38.996+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:53:39.017+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:53:39.017+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:53:39.035+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:53:39.035+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:53:39.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.203 seconds
+[2023-06-20T00:54:09.452+0000] {processor.py:153} INFO - Started process (PID=199155) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:54:09.452+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:54:09.453+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:54:09.453+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:54:09.607+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:54:09.633+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:54:09.633+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:54:09.649+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:54:09.649+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:54:09.665+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T00:54:40.152+0000] {processor.py:153} INFO - Started process (PID=199267) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:54:40.153+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:54:40.153+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:54:40.153+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:54:40.409+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:54:40.443+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:54:40.443+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:54:40.463+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:54:40.463+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:54:40.477+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.328 seconds
+[2023-06-20T00:55:10.790+0000] {processor.py:153} INFO - Started process (PID=199373) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:55:10.791+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:55:10.791+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:55:10.791+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:55:10.972+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:55:10.993+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:55:10.993+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:55:11.019+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:55:11.019+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:55:11.042+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.254 seconds
+[2023-06-20T00:55:41.479+0000] {processor.py:153} INFO - Started process (PID=199493) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:55:41.479+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:55:41.480+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:55:41.480+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:55:41.626+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:55:41.651+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:55:41.651+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:55:41.668+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:55:41.668+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:55:41.683+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T00:56:12.106+0000] {processor.py:153} INFO - Started process (PID=199613) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:56:12.107+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:56:12.107+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:56:12.107+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:56:12.261+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:56:12.282+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:56:12.282+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:56:12.299+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:56:12.299+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:56:12.315+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T00:56:42.721+0000] {processor.py:153} INFO - Started process (PID=199732) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:56:42.721+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:56:42.722+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:56:42.722+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:56:42.872+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:56:42.895+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:56:42.895+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:56:42.913+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:56:42.913+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:56:42.929+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T00:57:13.460+0000] {processor.py:153} INFO - Started process (PID=199851) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:57:13.460+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:57:13.461+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:57:13.461+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:57:13.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:57:13.632+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:57:13.632+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:57:13.648+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:57:13.648+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:57:13.663+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T00:57:44.149+0000] {processor.py:153} INFO - Started process (PID=199973) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:57:44.150+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:57:44.150+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:57:44.150+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:57:44.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:57:44.325+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:57:44.324+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:57:44.344+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:57:44.344+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:57:44.361+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T00:58:14.726+0000] {processor.py:153} INFO - Started process (PID=200078) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:58:14.726+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:58:14.727+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:58:14.727+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:58:14.920+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:58:14.949+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:58:14.949+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:58:14.967+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:58:14.967+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:58:14.986+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.264 seconds
+[2023-06-20T00:58:45.391+0000] {processor.py:153} INFO - Started process (PID=200190) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:58:45.392+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:58:45.392+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:58:45.392+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:58:45.536+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:58:45.565+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:58:45.565+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:58:45.587+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:58:45.587+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:58:45.608+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.220 seconds
+[2023-06-20T00:59:16.032+0000] {processor.py:153} INFO - Started process (PID=200296) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:59:16.032+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:59:16.033+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:59:16.033+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:59:16.200+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:59:16.230+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:59:16.230+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:59:16.256+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:59:16.255+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:59:16.273+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.244 seconds
+[2023-06-20T00:59:46.769+0000] {processor.py:153} INFO - Started process (PID=200408) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:59:46.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T00:59:46.770+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:59:46.770+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:59:46.928+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T00:59:46.954+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:59:46.954+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T00:59:46.972+0000] {logging_mixin.py:137} INFO - [2023-06-20T00:59:46.972+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T00:59:46.990+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.223 seconds
+[2023-06-20T01:00:17.422+0000] {processor.py:153} INFO - Started process (PID=200517) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:00:17.423+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:00:17.423+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:00:17.423+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:00:17.567+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:00:17.591+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:00:17.591+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:00:17.607+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:00:17.607+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:00:17.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.204 seconds
+[2023-06-20T01:00:48.022+0000] {processor.py:153} INFO - Started process (PID=200626) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:00:48.023+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:00:48.024+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:00:48.023+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:00:48.260+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:00:48.291+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:00:48.291+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:00:48.318+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:00:48.317+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:00:48.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.315 seconds
+[2023-06-20T01:01:18.607+0000] {processor.py:153} INFO - Started process (PID=200735) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:01:18.608+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:01:18.608+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:01:18.608+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:01:18.748+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:01:18.777+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:01:18.777+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:01:18.797+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:01:18.797+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:01:18.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.208 seconds
+[2023-06-20T01:01:49.238+0000] {processor.py:153} INFO - Started process (PID=200841) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:01:49.239+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:01:49.239+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:01:49.239+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:01:49.385+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:01:49.409+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:01:49.408+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:01:49.425+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:01:49.425+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:01:49.439+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.204 seconds
+[2023-06-20T01:02:19.915+0000] {processor.py:153} INFO - Started process (PID=200952) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:02:19.916+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:02:19.916+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:02:19.916+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:02:20.077+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:02:20.103+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:02:20.103+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:02:20.132+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:02:20.132+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:02:20.151+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.239 seconds
+[2023-06-20T01:02:50.568+0000] {processor.py:153} INFO - Started process (PID=201061) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:02:50.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:02:50.569+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:02:50.569+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:02:50.746+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:02:50.776+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:02:50.776+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:02:50.795+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:02:50.794+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:02:50.810+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.245 seconds
+[2023-06-20T01:03:21.199+0000] {processor.py:153} INFO - Started process (PID=201170) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:03:21.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:03:21.200+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:03:21.200+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:03:21.345+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:03:21.367+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:03:21.367+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:03:21.382+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:03:21.382+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:03:21.396+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.200 seconds
+[2023-06-20T01:03:51.888+0000] {processor.py:153} INFO - Started process (PID=201279) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:03:51.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:03:51.889+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:03:51.889+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:03:52.042+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:03:52.067+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:03:52.066+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:03:52.085+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:03:52.085+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:03:52.103+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.218 seconds
+[2023-06-20T01:04:22.509+0000] {processor.py:153} INFO - Started process (PID=201384) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:04:22.510+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:04:22.511+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:04:22.511+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:04:22.650+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:04:22.671+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:04:22.671+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:04:22.687+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:04:22.687+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:04:22.701+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T01:04:53.201+0000] {processor.py:153} INFO - Started process (PID=201493) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:04:53.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:04:53.202+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:04:53.202+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:04:53.355+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:04:53.376+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:04:53.376+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:04:53.393+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:04:53.393+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:04:53.410+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T01:05:23.853+0000] {processor.py:153} INFO - Started process (PID=201602) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:05:23.853+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:05:23.854+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:05:23.854+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:05:23.994+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:05:24.018+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:05:24.018+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:05:24.035+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:05:24.034+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:05:24.048+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.199 seconds
+[2023-06-20T01:05:54.511+0000] {processor.py:153} INFO - Started process (PID=201711) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:05:54.512+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:05:54.512+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:05:54.512+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:05:54.665+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:05:54.686+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:05:54.686+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:05:54.702+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:05:54.702+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:05:54.717+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.209 seconds
+[2023-06-20T01:06:25.160+0000] {processor.py:153} INFO - Started process (PID=201820) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:06:25.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:06:25.161+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:06:25.161+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:06:25.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:06:25.324+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:06:25.323+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:06:25.340+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:06:25.340+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:06:25.355+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.199 seconds
+[2023-06-20T01:06:55.861+0000] {processor.py:153} INFO - Started process (PID=201932) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:06:55.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:06:55.862+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:06:55.862+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:06:56.006+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:06:56.032+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:06:56.032+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:06:56.050+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:06:56.049+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:06:56.065+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T01:07:26.526+0000] {processor.py:153} INFO - Started process (PID=202041) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:07:26.526+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:07:26.527+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:07:26.527+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:07:26.699+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:07:26.721+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:07:26.721+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:07:26.737+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:07:26.737+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:07:26.752+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.229 seconds
+[2023-06-20T01:07:57.168+0000] {processor.py:153} INFO - Started process (PID=202151) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:07:57.168+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:07:57.169+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:07:57.169+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:07:57.356+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:07:57.379+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:07:57.379+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:07:57.397+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:07:57.396+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:07:57.412+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.246 seconds
+[2023-06-20T01:08:27.719+0000] {processor.py:153} INFO - Started process (PID=202257) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:08:27.720+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:08:27.720+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:08:27.720+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:08:27.864+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:08:27.889+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:08:27.889+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:08:27.907+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:08:27.906+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:08:27.922+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.206 seconds
+[2023-06-20T01:08:58.425+0000] {processor.py:153} INFO - Started process (PID=202369) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:08:58.425+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:08:58.426+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:08:58.426+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:08:58.578+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:08:58.605+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:08:58.605+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:08:58.624+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:08:58.624+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:08:58.641+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.219 seconds
+[2023-06-20T01:09:29.116+0000] {processor.py:153} INFO - Started process (PID=202478) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:09:29.116+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:09:29.117+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:09:29.117+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:09:29.262+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:09:29.285+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:09:29.284+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:09:29.302+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:09:29.302+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:09:29.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T01:09:59.700+0000] {processor.py:153} INFO - Started process (PID=202587) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:09:59.701+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:09:59.701+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:09:59.701+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:09:59.844+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:09:59.874+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:09:59.874+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:09:59.901+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:09:59.901+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:09:59.922+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.225 seconds
+[2023-06-20T01:10:30.388+0000] {processor.py:153} INFO - Started process (PID=202696) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:10:30.388+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:10:30.388+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:10:30.388+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:10:30.529+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:10:30.553+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:10:30.553+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:10:30.568+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:10:30.568+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:10:30.583+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.197 seconds
+[2023-06-20T01:11:01.032+0000] {processor.py:153} INFO - Started process (PID=202805) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:11:01.033+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:11:01.033+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:11:01.033+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:11:01.172+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:11:01.194+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:11:01.194+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:11:01.210+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:11:01.210+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:11:01.224+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T01:11:31.610+0000] {processor.py:153} INFO - Started process (PID=202911) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:11:31.611+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:11:31.612+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:11:31.612+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:11:31.798+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:11:31.830+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:11:31.830+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:11:31.852+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:11:31.852+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:11:31.871+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.265 seconds
+[2023-06-20T01:12:02.273+0000] {processor.py:153} INFO - Started process (PID=203024) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:12:02.274+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:12:02.274+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:12:02.274+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:12:02.413+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:12:02.435+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:12:02.435+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:12:02.451+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:12:02.451+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:12:02.464+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.193 seconds
+[2023-06-20T01:12:32.914+0000] {processor.py:153} INFO - Started process (PID=203130) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:12:32.915+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:12:32.915+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:12:32.915+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:12:33.095+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:12:33.120+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:12:33.120+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:12:33.138+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:12:33.138+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:12:33.155+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.243 seconds
+[2023-06-20T01:13:03.571+0000] {processor.py:153} INFO - Started process (PID=203242) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:13:03.571+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:13:03.571+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:13:03.571+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:13:03.716+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:13:03.740+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:13:03.740+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:13:03.758+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:13:03.758+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:13:03.772+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.204 seconds
+[2023-06-20T01:13:34.198+0000] {processor.py:153} INFO - Started process (PID=203351) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:13:34.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:13:34.200+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:13:34.199+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:13:34.363+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:13:34.384+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:13:34.384+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:13:34.400+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:13:34.400+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:13:34.414+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.219 seconds
+[2023-06-20T01:14:04.795+0000] {processor.py:153} INFO - Started process (PID=203460) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:14:04.796+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:14:04.796+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:14:04.796+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:14:04.939+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:14:04.967+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:14:04.966+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:14:04.982+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:14:04.982+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:14:04.997+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.204 seconds
+[2023-06-20T01:14:35.383+0000] {processor.py:153} INFO - Started process (PID=203566) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:14:35.383+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:14:35.384+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:14:35.384+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:14:35.533+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:14:35.555+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:14:35.555+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:14:35.570+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:14:35.570+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:14:35.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.203 seconds
+[2023-06-20T01:15:06.022+0000] {processor.py:153} INFO - Started process (PID=203678) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:15:06.023+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:15:06.023+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:15:06.023+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:15:06.190+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:15:06.226+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:15:06.226+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:15:06.247+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:15:06.247+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:15:06.262+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.243 seconds
+[2023-06-20T01:15:36.712+0000] {processor.py:153} INFO - Started process (PID=203784) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:15:36.712+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:15:36.714+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:15:36.713+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:15:36.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:15:36.906+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:15:36.906+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:15:36.921+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:15:36.921+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:15:36.937+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.229 seconds
+[2023-06-20T01:16:07.470+0000] {processor.py:153} INFO - Started process (PID=203896) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:16:07.470+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:16:07.471+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:16:07.471+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:16:07.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:16:07.630+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:16:07.629+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:16:07.646+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:16:07.645+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:16:07.659+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.191 seconds
+[2023-06-20T01:16:38.099+0000] {processor.py:153} INFO - Started process (PID=204006) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:16:38.100+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:16:38.100+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:16:38.100+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:16:38.293+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:16:38.319+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:16:38.319+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:16:38.337+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:16:38.337+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:16:38.354+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.259 seconds
+[2023-06-20T01:17:08.690+0000] {processor.py:153} INFO - Started process (PID=204111) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:17:08.690+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:17:08.691+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:17:08.691+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:17:08.830+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:17:08.852+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:17:08.852+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:17:08.868+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:17:08.868+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:17:08.883+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.196 seconds
+[2023-06-20T01:17:39.350+0000] {processor.py:153} INFO - Started process (PID=204223) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:17:39.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:17:39.351+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:17:39.351+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:17:39.487+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:17:39.513+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:17:39.513+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:17:39.529+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:17:39.529+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:17:39.543+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T01:18:10.007+0000] {processor.py:153} INFO - Started process (PID=204329) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:18:10.007+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:18:10.008+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:18:10.008+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:18:10.157+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:18:10.179+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:18:10.179+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:18:10.194+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:18:10.194+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:18:10.208+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.204 seconds
+[2023-06-20T01:18:40.690+0000] {processor.py:153} INFO - Started process (PID=204441) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:18:40.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:18:40.691+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:18:40.691+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:18:40.832+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:18:40.857+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:18:40.857+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:18:40.872+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:18:40.872+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:18:40.888+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.200 seconds
+[2023-06-20T01:19:11.327+0000] {processor.py:153} INFO - Started process (PID=204556) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:19:11.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:19:11.328+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:19:11.328+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:19:11.483+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:19:11.510+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:19:11.510+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:19:11.527+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:19:11.527+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:19:11.543+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.220 seconds
+[2023-06-20T01:19:42.084+0000] {processor.py:153} INFO - Started process (PID=204675) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:19:42.085+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:19:42.086+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:19:42.085+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:19:42.230+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:19:42.253+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:19:42.253+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:19:42.270+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:19:42.270+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:19:42.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.206 seconds
+[2023-06-20T01:20:12.757+0000] {processor.py:153} INFO - Started process (PID=204797) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:20:12.757+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:20:12.758+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:20:12.758+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:20:12.911+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:20:12.936+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:20:12.936+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:20:12.953+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:20:12.953+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:20:12.972+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.218 seconds
+[2023-06-20T01:20:43.413+0000] {processor.py:153} INFO - Started process (PID=204920) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:20:43.414+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:20:43.414+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:20:43.414+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:20:43.585+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:20:43.614+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:20:43.614+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:20:43.630+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:20:43.630+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:20:43.646+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.236 seconds
+[2023-06-20T01:21:14.191+0000] {processor.py:153} INFO - Started process (PID=205039) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:21:14.192+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:21:14.192+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:21:14.192+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:21:14.363+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:21:14.385+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:21:14.385+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:21:14.401+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:21:14.401+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:21:14.417+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.229 seconds
+[2023-06-20T01:21:44.808+0000] {processor.py:153} INFO - Started process (PID=205144) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:21:44.809+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:21:44.809+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:21:44.809+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:21:44.994+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:21:45.026+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:21:45.026+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:21:45.051+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:21:45.051+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:21:45.069+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.264 seconds
+[2023-06-20T01:22:15.556+0000] {processor.py:153} INFO - Started process (PID=205253) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:22:15.557+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:22:15.558+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:22:15.557+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:22:15.734+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:22:15.757+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:22:15.757+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:22:15.775+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:22:15.775+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:22:15.791+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.238 seconds
+[2023-06-20T01:22:46.244+0000] {processor.py:153} INFO - Started process (PID=205365) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:22:46.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:22:46.246+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:22:46.245+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:22:46.429+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:22:46.460+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:22:46.460+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:22:46.507+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:22:46.507+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:22:46.532+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.291 seconds
+[2023-06-20T01:23:16.889+0000] {processor.py:153} INFO - Started process (PID=205474) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:23:16.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:23:16.890+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:23:16.890+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:23:17.034+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:23:17.067+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:23:17.067+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:23:17.089+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:23:17.089+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:23:17.108+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.224 seconds
+[2023-06-20T01:23:47.499+0000] {processor.py:153} INFO - Started process (PID=205580) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:23:47.500+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:23:47.500+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:23:47.500+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:23:47.637+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:23:47.659+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:23:47.659+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:23:47.674+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:23:47.674+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:23:47.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.192 seconds
+[2023-06-20T01:24:18.192+0000] {processor.py:153} INFO - Started process (PID=205692) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:24:18.192+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:24:18.193+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:24:18.193+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:24:18.371+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:24:18.396+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:24:18.396+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:24:18.418+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:24:18.418+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:24:18.438+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.251 seconds
+[2023-06-20T01:24:48.880+0000] {processor.py:153} INFO - Started process (PID=205798) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:24:48.881+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:24:48.882+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:24:48.882+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:24:49.065+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:24:49.088+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:24:49.087+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:24:49.109+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:24:49.109+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:24:49.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.251 seconds
+[2023-06-20T01:25:19.600+0000] {processor.py:153} INFO - Started process (PID=205910) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:25:19.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:25:19.601+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:25:19.601+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:25:19.755+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:25:19.779+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:25:19.779+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:25:19.801+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:25:19.801+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:25:19.815+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.219 seconds
+[2023-06-20T01:25:50.200+0000] {processor.py:153} INFO - Started process (PID=206019) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:25:50.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:25:50.202+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:25:50.201+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:25:50.390+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:25:50.413+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:25:50.413+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:25:50.431+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:25:50.431+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:25:50.445+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.248 seconds
+[2023-06-20T01:26:20.811+0000] {processor.py:153} INFO - Started process (PID=206127) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:26:20.812+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:26:20.813+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:26:20.813+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:26:21.003+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:26:21.030+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:26:21.030+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:26:21.046+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:26:21.046+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:26:21.062+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.254 seconds
+[2023-06-20T01:26:51.463+0000] {processor.py:153} INFO - Started process (PID=206233) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:26:51.463+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:26:51.464+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:26:51.463+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:26:51.620+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:26:51.645+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:26:51.645+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:26:51.660+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:26:51.660+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:26:51.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.215 seconds
+[2023-06-20T01:27:22.210+0000] {processor.py:153} INFO - Started process (PID=206349) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:27:22.210+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:27:22.211+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:27:22.211+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:27:22.354+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:27:22.375+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:27:22.375+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:27:22.391+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:27:22.391+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:27:22.407+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.200 seconds
+[2023-06-20T01:27:52.898+0000] {processor.py:153} INFO - Started process (PID=206461) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:27:52.898+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:27:52.899+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:27:52.899+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:27:53.037+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:27:53.059+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:27:53.059+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:27:53.074+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:27:53.074+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:27:53.090+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.195 seconds
+[2023-06-20T01:28:23.517+0000] {processor.py:153} INFO - Started process (PID=206567) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:28:23.517+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:28:23.518+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:28:23.518+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:28:23.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:28:23.716+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:28:23.716+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:28:23.733+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:28:23.733+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:28:23.749+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.235 seconds
+[2023-06-20T01:28:54.121+0000] {processor.py:153} INFO - Started process (PID=206673) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:28:54.121+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:28:54.122+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:28:54.122+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:28:54.265+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:28:54.288+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:28:54.288+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:28:54.312+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:28:54.312+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:28:54.329+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.212 seconds
+[2023-06-20T01:29:24.788+0000] {processor.py:153} INFO - Started process (PID=206788) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:29:24.788+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:29:24.789+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:29:24.789+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:29:24.929+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:29:24.951+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:29:24.951+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:29:24.969+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:29:24.969+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:29:24.987+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.203 seconds
+[2023-06-20T01:36:09.916+0000] {processor.py:153} INFO - Started process (PID=205) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:36:09.916+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:36:09.917+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:36:09.917+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:36:10.130+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:36:10.217+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:36:10.217+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:36:10.243+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:36:10.243+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:36:10.273+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.361 seconds
+[2023-06-20T01:36:41.016+0000] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:36:41.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:36:41.017+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:36:41.017+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:36:41.166+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:36:41.187+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:36:41.187+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:36:41.202+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:36:41.202+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:36:41.217+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.205 seconds
+[2023-06-20T01:37:11.733+0000] {processor.py:153} INFO - Started process (PID=424) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:37:11.734+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:37:11.734+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:37:11.734+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:37:11.887+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:37:11.917+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:37:11.916+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:37:11.939+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:37:11.939+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:37:11.955+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.224 seconds
+[2023-06-20T01:37:42.491+0000] {processor.py:153} INFO - Started process (PID=532) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:37:42.492+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:37:42.492+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:37:42.492+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:37:42.679+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:37:42.708+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:37:42.708+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:37:42.739+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:37:42.739+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:37:42.757+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.269 seconds
+[2023-06-20T01:38:13.329+0000] {processor.py:153} INFO - Started process (PID=640) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:38:13.330+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:38:13.331+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:38:13.330+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:38:13.505+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:38:13.534+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:38:13.534+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:38:13.551+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:38:13.551+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:38:13.567+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.241 seconds
+[2023-06-20T01:38:44.144+0000] {processor.py:153} INFO - Started process (PID=749) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:38:44.144+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:38:44.145+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:38:44.145+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:38:44.290+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:38:44.316+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:38:44.315+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:38:44.333+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:38:44.333+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:38:44.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.207 seconds
+[2023-06-20T01:39:14.950+0000] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:39:14.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:39:14.951+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:39:14.951+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:39:15.094+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:39:15.124+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:39:15.124+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:39:15.142+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:39:15.142+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:39:15.164+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.216 seconds
+[2023-06-20T01:39:41.288+0000] {processor.py:153} INFO - Started process (PID=153) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:39:41.289+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:39:41.289+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:39:41.289+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:39:41.472+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:39:41.502+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:39:41.502+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:39:41.518+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:39:41.518+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:39:41.533+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.247 seconds
+[2023-06-20T01:40:12.044+0000] {processor.py:153} INFO - Started process (PID=263) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:40:12.045+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:40:12.045+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:40:12.045+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:40:12.251+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:40:12.278+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:40:12.278+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:40:12.294+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:40:12.294+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:40:12.316+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.275 seconds
+[2023-06-20T01:40:42.907+0000] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:40:42.907+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/KPO_test.py for tasks to queue
+[2023-06-20T01:40:42.908+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:40:42.908+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:40:43.061+0000] {processor.py:753} INFO - DAG(s) dict_keys(['k8s_pod_operator_example']) retrieved from /opt/airflow/dags/KPO_test.py
+[2023-06-20T01:40:43.089+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:40:43.089+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-06-20T01:40:43.115+0000] {logging_mixin.py:137} INFO - [2023-06-20T01:40:43.115+0000] {dag.py:3452} INFO - Setting next_dagrun for k8s_pod_operator_example to None, run_after=None
+[2023-06-20T01:40:43.137+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/KPO_test.py took 0.233 seconds

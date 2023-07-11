@@ -1,0 +1,39 @@
+[2023-07-03T02:27:26.529+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: text_hello.hello_task manual__2023-07-03T02:24:04.152897+00:00 [queued]>
+[2023-07-03T02:27:26.539+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: text_hello.hello_task manual__2023-07-03T02:24:04.152897+00:00 [queued]>
+[2023-07-03T02:27:26.539+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-03T02:27:26.539+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-07-03T02:27:26.539+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-03T02:27:26.559+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): hello_task> on 2023-07-03 02:24:04.152897+00:00
+[2023-07-03T02:27:26.561+0000] {standard_task_runner.py:55} INFO - Started process 106 to run task
+[2023-07-03T02:27:26.564+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'text_hello', 'hello_task', 'manual__2023-07-03T02:24:04.152897+00:00', '--job-id', '285', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesExecutor_sample.py', '--cfg-path', '/tmp/tmpo3_iupp0']
+[2023-07-03T02:27:26.565+0000] {standard_task_runner.py:83} INFO - Job 285: Subtask hello_task
+[2023-07-03T02:27:27.203+0000] {task_command.py:389} INFO - Running <TaskInstance: text_hello.hello_task manual__2023-07-03T02:24:04.152897+00:00 [running]> on host text-hello-hello-task-4ac829a5ac28457999793f0d8e106f3a
+[2023-07-03T02:27:27.903+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-07-03T02:27:27.905+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-07-03T02:27:27.906+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
+[2023-07-03T02:27:27.995+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=text_hello
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-03T02:24:04.152897+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-03T02:24:04.152897+00:00
+[2023-07-03T02:27:27.999+0000] {kubernetes_pod.py:815} INFO - Building pod text-hello-pod-ss3atn4w with labels: {'dag_id': 'text_hello', 'task_id': 'hello_task', 'run_id': 'manual__2023-07-03T022404.1528970000-1ff0d98db', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
+[2023-07-03T02:27:28.078+0000] {kubernetes_pod.py:476} INFO - Found matching pod text-hello-pod-ss3atn4w with labels {'airflow_kpo_in_cluster': 'True', 'airflow_version': '2.5.3', 'dag_id': 'text_hello', 'kubernetes_pod_operator': 'True', 'run_id': 'manual__2023-07-03T022404.1528970000-1ff0d98db', 'task_id': 'hello_task', 'try_number': '1'}
+[2023-07-03T02:27:28.079+0000] {kubernetes_pod.py:477} INFO - `try_number` of task_instance: 1
+[2023-07-03T02:27:28.079+0000] {kubernetes_pod.py:478} INFO - `try_number` of pod: 1
+[2023-07-03T02:27:28.090+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:29.116+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:30.134+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:31.149+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:32.169+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:33.403+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:34.420+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:27:35.448+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ss3atn4w
+[2023-07-03T02:29:36.675+0000] {pod_manager.py:288} INFO - Pod text-hello-pod-ss3atn4w has phase Running
+[2023-07-03T02:29:38.688+0000] {kubernetes_pod.py:688} INFO - Deleting pod: text-hello-pod-ss3atn4w
+[2023-07-03T02:29:38.775+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=text_hello, task_id=hello_task, execution_date=20230703T022404, start_date=20230703T022726, end_date=20230703T022938
+[2023-07-03T02:29:38.822+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-07-03T02:29:38.844+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

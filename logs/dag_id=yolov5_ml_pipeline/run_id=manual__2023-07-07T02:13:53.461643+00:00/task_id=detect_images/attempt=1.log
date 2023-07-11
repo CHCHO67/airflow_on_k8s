@@ -1,0 +1,53 @@
+[2023-07-07T02:14:28.314+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: yolov5_ml_pipeline.detect_images manual__2023-07-07T02:13:53.461643+00:00 [queued]>
+[2023-07-07T02:14:28.331+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: yolov5_ml_pipeline.detect_images manual__2023-07-07T02:13:53.461643+00:00 [queued]>
+[2023-07-07T02:14:28.331+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-07T02:14:28.331+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-07-07T02:14:28.331+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-07T02:14:28.352+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): detect_images> on 2023-07-07 02:13:53.461643+00:00
+[2023-07-07T02:14:28.355+0000] {standard_task_runner.py:55} INFO - Started process 162 to run task
+[2023-07-07T02:14:28.360+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'yolov5_ml_pipeline', 'detect_images', 'manual__2023-07-07T02:13:53.461643+00:00', '--job-id', '295', '--raw', '--subdir', 'DAGS_FOLDER/yolov5_pipe.py', '--cfg-path', '/tmp/tmprfh31s0z']
+[2023-07-07T02:14:28.363+0000] {standard_task_runner.py:83} INFO - Job 295: Subtask detect_images
+[2023-07-07T02:14:29.079+0000] {task_command.py:389} INFO - Running <TaskInstance: yolov5_ml_pipeline.detect_images manual__2023-07-07T02:13:53.461643+00:00 [running]> on host yolov5-ml-pipeline-detect-imag-8b74d98070854e1f9e366560dbb98191
+[2023-07-07T02:14:29.951+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-07-07T02:14:29.954+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-07-07T02:14:29.956+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
+[2023-07-07T02:14:30.058+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yolov5_ml_pipeline
+AIRFLOW_CTX_TASK_ID=detect_images
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-07T02:13:53.461643+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-07T02:13:53.461643+00:00
+[2023-07-07T02:14:30.067+0000] {kubernetes_pod.py:815} INFO - Building pod detect-images-3evg4n8d with labels: {'dag_id': 'yolov5_ml_pipeline', 'task_id': 'detect_images', 'run_id': 'manual__2023-07-07T021353.4616430000-7a21ab065', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
+[2023-07-07T02:14:30.156+0000] {kubernetes_pod.py:476} INFO - Found matching pod detect-images-3evg4n8d with labels {'airflow_kpo_in_cluster': 'True', 'airflow_version': '2.5.3', 'app': 'my_app', 'dag_id': 'yolov5_ml_pipeline', 'kubernetes_pod_operator': 'True', 'run_id': 'manual__2023-07-07T021353.4616430000-7a21ab065', 'task_id': 'detect_images', 'try_number': '1'}
+[2023-07-07T02:14:30.157+0000] {kubernetes_pod.py:477} INFO - `try_number` of task_instance: 1
+[2023-07-07T02:14:30.157+0000] {kubernetes_pod.py:478} INFO - `try_number` of pod: 1
+[2023-07-07T02:14:30.170+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-3evg4n8d
+[2023-07-07T02:14:31.193+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-3evg4n8d
+[2023-07-07T02:14:32.215+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-3evg4n8d
+[2023-07-07T02:14:33.239+0000] {pod_manager.py:187} WARNING - Pod not yet started: detect-images-3evg4n8d
+[2023-07-07T02:14:36.626+0000] {pod_manager.py:235} INFO - [34m[1mdetect: [0mweights=['yolov5s.pt'], source=/data/input/, data=data/coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=/data/output/, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
+[2023-07-07T02:14:36.980+0000] {pod_manager.py:235} INFO - YOLOv5 🚀 v7.0-192-g459dd49 Python-3.10.9 torch-2.0.0 CUDA:0 (NVIDIA RTX A6000, 48685MiB)
+[2023-07-07T02:14:36.980+0000] {pod_manager.py:235} INFO - 
+[2023-07-07T02:14:37.370+0000] {pod_manager.py:235} INFO - Downloading https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt to yolov5s.pt...
+[2023-07-07T02:14:38.524+0000] {pod_manager.py:235} INFO -   0%|          | 0.00/14.1M [00:00<?, ?B/s]  5%|▍         | 672k/14.1M [00:00<00:04, 3.10MB/s] 19%|█▊        | 2.62M/14.1M [00:00<00:01, 6.64MB/s]100%|██████████| 14.1M/14.1M [00:00<00:00, 26.9MB/s]
+[2023-07-07T02:14:38.525+0000] {pod_manager.py:235} INFO - 
+[2023-07-07T02:14:39.734+0000] {pod_manager.py:235} INFO - Fusing layers...
+[2023-07-07T02:14:41.349+0000] {pod_manager.py:235} INFO - YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients
+[2023-07-07T02:14:41.502+0000] {pod_manager.py:235} INFO - image 1/2 /data/input/bus.jpg: 640x480 4 persons, 1 bus, 54.7ms
+[2023-07-07T02:14:41.613+0000] {pod_manager.py:235} INFO - image 2/2 /data/input/zidane.jpg: 384x640 2 persons, 2 ties, 53.1ms
+[2023-07-07T02:14:41.613+0000] {pod_manager.py:235} INFO - Speed: 0.4ms pre-process, 53.9ms inference, 1.4ms NMS per image at shape (1, 3, 640, 640)
+[2023-07-07T02:14:41.614+0000] {pod_manager.py:235} INFO - Results saved to [1m/data/output/exp7[0m
+[2023-07-07T02:14:43.653+0000] {pod_manager.py:260} WARNING - Pod detect-images-3evg4n8d log read interrupted but container base still running
+[2023-07-07T02:14:44.663+0000] {pod_manager.py:235} INFO - YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients
+[2023-07-07T02:14:44.664+0000] {pod_manager.py:235} INFO - image 1/2 /data/input/bus.jpg: 640x480 4 persons, 1 bus, 54.7ms
+[2023-07-07T02:14:44.664+0000] {pod_manager.py:235} INFO - image 2/2 /data/input/zidane.jpg: 384x640 2 persons, 2 ties, 53.1ms
+[2023-07-07T02:14:44.664+0000] {pod_manager.py:235} INFO - Speed: 0.4ms pre-process, 53.9ms inference, 1.4ms NMS per image at shape (1, 3, 640, 640)
+[2023-07-07T02:14:44.665+0000] {pod_manager.py:235} INFO - Results saved to [1m/data/output/exp7[0m
+[2023-07-07T02:14:44.711+0000] {pod_manager.py:288} INFO - Pod detect-images-3evg4n8d has phase Running
+[2023-07-07T02:14:46.734+0000] {kubernetes_pod.py:688} INFO - Deleting pod: detect-images-3evg4n8d
+[2023-07-07T02:14:46.843+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=yolov5_ml_pipeline, task_id=detect_images, execution_date=20230707T021353, start_date=20230707T021428, end_date=20230707T021446
+[2023-07-07T02:14:46.881+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-07-07T02:14:46.939+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

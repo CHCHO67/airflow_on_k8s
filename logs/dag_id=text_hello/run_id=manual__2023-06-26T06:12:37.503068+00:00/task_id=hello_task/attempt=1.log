@@ -1,0 +1,34 @@
+[2023-06-26T06:13:16.891+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: text_hello.hello_task manual__2023-06-26T06:12:37.503068+00:00 [queued]>
+[2023-06-26T06:13:16.899+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: text_hello.hello_task manual__2023-06-26T06:12:37.503068+00:00 [queued]>
+[2023-06-26T06:13:16.899+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-26T06:13:16.899+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-06-26T06:13:16.899+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-26T06:13:16.909+0000] {taskinstance.py:1309} INFO - Executing <Task(KubernetesPodOperator): hello_task> on 2023-06-26 06:12:37.503068+00:00
+[2023-06-26T06:13:16.911+0000] {standard_task_runner.py:55} INFO - Started process 106 to run task
+[2023-06-26T06:13:16.913+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'text_hello', 'hello_task', 'manual__2023-06-26T06:12:37.503068+00:00', '--job-id', '240', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesExecutor_sample.py', '--cfg-path', '/tmp/tmp12e3tuft']
+[2023-06-26T06:13:16.915+0000] {standard_task_runner.py:83} INFO - Job 240: Subtask hello_task
+[2023-06-26T06:13:17.525+0000] {task_command.py:389} INFO - Running <TaskInstance: text_hello.hello_task manual__2023-06-26T06:12:37.503068+00:00 [running]> on host text-hello-hello-task-865cc6c96dec443f9c9b3602f4a6f492
+[2023-06-26T06:13:18.215+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:58 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-06-26T06:13:18.216+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.8/site-packages/***/kubernetes/kube_config.py:64 DeprecationWarning: The namespace option in [kubernetes] has been moved to the namespace option in [kubernetes_executor] - the old setting has been used, but please update your config.
+[2023-06-26T06:13:18.216+0000] {pod_generator.py:424} WARNING - Model file /opt/***/pod_templates/pod_template.yaml does not exist
+[2023-06-26T06:13:18.259+0000] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=text_hello
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-26T06:12:37.503068+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-26T06:12:37.503068+00:00
+[2023-06-26T06:13:18.270+0000] {kubernetes_pod.py:815} INFO - Building pod text-hello-pod-ptip4tb1 with labels: {'dag_id': 'text_hello', 'task_id': 'hello_task', 'run_id': 'manual__2023-06-26T061237.5030680000-3d5d0a655', 'kubernetes_pod_operator': 'True', 'try_number': '1'}
+[2023-06-26T06:13:18.351+0000] {kubernetes_pod.py:476} INFO - Found matching pod text-hello-pod-ptip4tb1 with labels {'airflow_kpo_in_cluster': 'True', 'airflow_version': '2.5.3', 'dag_id': 'text_hello', 'kubernetes_pod_operator': 'True', 'run_id': 'manual__2023-06-26T061237.5030680000-3d5d0a655', 'task_id': 'hello_task', 'try_number': '1'}
+[2023-06-26T06:13:18.351+0000] {kubernetes_pod.py:477} INFO - `try_number` of task_instance: 1
+[2023-06-26T06:13:18.351+0000] {kubernetes_pod.py:478} INFO - `try_number` of pod: 1
+[2023-06-26T06:13:18.358+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ptip4tb1
+[2023-06-26T06:13:19.381+0000] {pod_manager.py:187} WARNING - Pod not yet started: text-hello-pod-ptip4tb1
+[2023-06-26T06:15:20.658+0000] {pod_manager.py:260} WARNING - Pod text-hello-pod-ptip4tb1 log read interrupted but container base still running
+[2023-06-26T06:15:21.726+0000] {pod_manager.py:288} INFO - Pod text-hello-pod-ptip4tb1 has phase Running
+[2023-06-26T06:15:23.750+0000] {kubernetes_pod.py:688} INFO - Deleting pod: text-hello-pod-ptip4tb1
+[2023-06-26T06:15:23.822+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=text_hello, task_id=hello_task, execution_date=20230626T061237, start_date=20230626T061316, end_date=20230626T061523
+[2023-06-26T06:15:23.859+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-06-26T06:15:23.874+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
