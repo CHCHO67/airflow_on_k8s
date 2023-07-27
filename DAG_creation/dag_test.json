@@ -1,0 +1,83 @@
+{
+    "default_arg": {
+        "dag_owner": "c2h",
+        "start_date": "2023-07-24 00:00:00",
+        "email": "airflow@example.com",
+        "retries": 1,
+        "retry_delay": 5
+    },
+    "dag": {
+        "dag_id": "Test dynamic dag",
+        "schedule_interval": "@daily"
+    },
+    "volume": {
+        "volume_name": "data-volume",
+        "claim_name": "data-pvc"
+    },
+    "mount": {
+        "volume_name": "data-volume",
+        "mount_path": "/data",
+        "read_only": "False"
+    },
+    "tasks": [
+        {
+            "namespace": "airflow-cluster",
+            "image": "python:3.7",
+            "cmd": [
+                "python",
+                "-c"
+            ],
+            "args": [
+                "print('hello'); x=1+1; print(x)"
+            ],
+            "name": "task_1",
+            "task_id": "task_1",
+            "task_variable": "test_task_1"
+        },
+        {
+            "namespace": "default",
+            "image": "python:3.7",
+            "cmd": [
+                "python",
+                "-c"
+            ],
+            "args": [
+                "print('hello')",
+                "x=1+1",
+                "print(x)",
+                "with open('/data/test_c2h.txt', 'w') as f: f.write(x)"
+            ],
+            "name": "task_2",
+            "task_id": "task_2",
+            "task_variable": "test_task_2",
+            "prev_task": "test_task_1",
+            "env_vars": {
+                "ENV_VAR1": "value1",
+                "ENV_VAR2": "value2"
+            }
+        },
+        {
+            "namespace": "default",
+            "image": "python:3.7",
+            "cmd": [
+                "python",
+                "-c"
+            ],
+            "args": [
+                "print('hello'); x=1+1; print(x);"
+            ],
+            "name": "task_3",
+            "task_id": "task_3",
+            "task_variable": "test_task_3",
+            "prev_task": "test_task_2",
+            "env_vars": {
+                "ENV_VAR1": "value1",
+                "ENV_VAR2": "value2"
+            },
+            "resources": {
+                "limit_memory": "1G",
+                "limit_cpu": "1"
+            }
+        }
+    ]
+}

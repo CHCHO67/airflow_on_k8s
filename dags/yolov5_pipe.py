@@ -8,7 +8,7 @@ import time
 
 from kubernetes.client import models as k8s
 
-# Define your volume
+# Define volume
 volume = k8s.V1Volume(
     name="data-volume",
     persistent_volume_claim=k8s.V1PersistentVolumeClaimVolumeSource(
@@ -16,14 +16,13 @@ volume = k8s.V1Volume(
     ),
 )
 
-
 mount = k8s.V1VolumeMount(
     name="data-volume",  # the same name you specified in the volume
     mount_path="/data",  # the path where you want the PVC to be mounted
     read_only=False,
 )
 
-# Define your resources
+# Define resources
 # Resource 제한을 하면 에러 발생. 리소스는 차후 해결.
 # resources = k8s.V1ResourceRequirements(
 #     requests={"cpu": "1", "memory": "1Gi", "nvidia.com/gpu": "1"},
@@ -78,7 +77,6 @@ start_task = DummyOperator(task_id="start_task", dag=dag)
 #     dag=dag,
 # )
 
-# Generate the evaluation images
 detect_images_task = KubernetesPodOperator(
     task_id="detect_images",
     name="detect-images",

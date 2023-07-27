@@ -1,0 +1,67 @@
+from datetime import datetime, timedelta
+import time
+from airflow import DAG
+from airflow.providers.cncf.kubernetes.operators.kubernetes_pod import (
+    KubernetesPodOperator,
+)
+from kubernetes.client import models as k8s
+from airflow.models import Variable
+
+# Define volume
+volume = k8s.V1Volume(
+    name="{{ volume.volume_name }}",
+    persistent_volume_claim=k8s.V1PersistentVolumeClaimVolumeSource(
+        claim_name="{{ volume.claim_name }}"
+    ),
+)
+
+mount = k8s.V1VolumeMount(
+    name="{{ mount.volume_name }}",  # the same name you specified in the volume
+    mount_path="{{ mount.mount_path }}",  # the path where you want the PVC to be mounted
+    read_only="{{mount.read_only}}",
+)
+
+default_args = {
+    'owner': '{{ default_arg.dag_owner | default("airflow") }}',
+    'depends_on_past': False,
+    'start_date': datetime.strptime('{{ default_arg.start_date | default("2023-07-24 00:00:00") }}', '%Y-%m-%d %H:%M:%S'),
+    'email': ['{{ default_arg.email | default("airflow@example.com") }}'],
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': '{{ default_arg.retries | default(1) }}',
+    'retry_delay': timedelta(minutes={{ default_arg.retry_delay | default(5) }}),
+}
+
+dag = DAG(
+    '{{ dag.dag_id | default("dynamic_dag") }}',
+    default_args=default_args,
+    schedule_interval='{{ dag.schedule_interval | default("@daily") }}',
+)
+
+def sleep_on_failure(context):
+    print("Task failed. sleeping for 2minutes")
+    time.sleep(120)
+
+{% for task in tasks %}
+{{ task.task_variable }} = KubernetesPodOperator(
+    namespace='{{ task.namespace | default("airflow-cluster") }}',
+    image="{{ task.image }}",
+    cmds="{{ task.cmd }}",
+    arguments="{{ task.args }}",
+    name="{{ task.name }}",
+    task_id="{{ task.task_id }}",
+    env_vars={{ task.env_vars | default({}) }},
+    resources={{ task.resources | default({}) }},
+    in_cluster=True,
+    is_delete_operator_pod=True,
+    on_failure_callback=sleep_on_failure,
+    do_xcom_push=True,
+    dag=dag
+)
+
+{% if task.prev_task %}
+{{task.prev_task}} >> {{ task.task_variable }}
+{% endif %}
+
+{% endfor %}
+
