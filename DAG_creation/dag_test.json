@@ -1,13 +1,13 @@
 {
     "default_arg": {
         "dag_owner": "c2h",
-        "start_date": "2023-07-24 00:00:00",
+        "start_date": "",
         "email": "airflow@example.com",
         "retries": 1,
         "retry_delay": 5
     },
     "dag": {
-        "dag_id": "Test dynamic dag",
+        "dag_id": "Test_dynamic_dag_resources",
         "schedule_interval": "@daily"
     },
     "volume": {
@@ -28,14 +28,16 @@
                 "-c"
             ],
             "args": [
-                "print('hello'); x=1+1; print(x)"
+                "print('hello')",
+                "x=1+1",
+                "print(x)"
             ],
             "name": "task_1",
             "task_id": "task_1",
             "task_variable": "test_task_1"
         },
         {
-            "namespace": "default",
+            "namespace": "airflow-cluster",
             "image": "python:3.7",
             "cmd": [
                 "python",
@@ -57,14 +59,14 @@
             }
         },
         {
-            "namespace": "default",
+            "namespace": "airflow-cluster",
             "image": "python:3.7",
             "cmd": [
                 "python",
                 "-c"
             ],
             "args": [
-                "print('hello'); x=1+1; print(x);"
+                "print('hello')"
             ],
             "name": "task_3",
             "task_id": "task_3",
@@ -74,10 +76,16 @@
                 "ENV_VAR1": "value1",
                 "ENV_VAR2": "value2"
             },
-            "resources": {
-                "limit_memory": "1G",
-                "limit_cpu": "1"
-            }
+            "container_resources": [
+                "request_resources": {
+                    "memory": "",
+                    "cpu": ""
+                },
+                "limit_resources": {
+                    "memory": "",
+                    "cpu": ""
+                }
+            ]
         }
     ]
 }

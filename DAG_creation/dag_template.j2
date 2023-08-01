@@ -6,6 +6,7 @@ from airflow.providers.cncf.kubernetes.operators.kubernetes_pod import (
 )
 from kubernetes.client import models as k8s
 from airflow.models import Variable
+from kubernetes.client import V1ResourceRequirements
 
 # Define volume
 volume = k8s.V1Volume(
@@ -21,21 +22,26 @@ mount = k8s.V1VolumeMount(
     read_only="{{mount.read_only}}",
 )
 
+# task_resources = V1ResourceRequirements(
+#     requests={'memory': '{{ resources.memory_request }}', 'cpu': '{{ resources.cpu_request }}'},
+#     limits={'memory': '{{ resources.memory_limit }}', 'cpu': '{{ resources.cpu_limit }}'}
+# )
+
 default_args = {
     'owner': '{{ default_arg.dag_owner | default("airflow") }}',
     'depends_on_past': False,
-    'start_date': datetime.strptime('{{ default_arg.start_date | default("2023-07-24 00:00:00") }}', '%Y-%m-%d %H:%M:%S'),
+    'start_date': datetime({{ default_arg.start_date | default("(2023, 7, 30)") }}),
     'email': ['{{ default_arg.email | default("airflow@example.com") }}'],
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': '{{ default_arg.retries | default(1) }}',
+    'retries': {{ default_arg.retries | default(1) }},
     'retry_delay': timedelta(minutes={{ default_arg.retry_delay | default(5) }}),
 }
 
 dag = DAG(
     '{{ dag.dag_id | default("dynamic_dag") }}',
     default_args=default_args,
-    schedule_interval='{{ dag.schedule_interval | default("@daily") }}',
+    schedule_interval='{{ dag.schedule_interval | default("@once") }}',
 )
 
 def sleep_on_failure(context):
@@ -45,23 +51,26 @@ def sleep_on_failure(context):
 {% for task in tasks %}
 {{ task.task_variable }} = KubernetesPodOperator(
     namespace='{{ task.namespace | default("airflow-cluster") }}',
-    image="{{ task.image }}",
-    cmds="{{ task.cmd }}",
-    arguments="{{ task.args }}",
-    name="{{ task.name }}",
-    task_id="{{ task.task_id }}",
+    image='{{ task.image }}',
+    cmds={{ task.cmd }},
+    arguments={{ task.args }},
+    name='{{ task.name }}',
+    task_id='{{ task.task_id }}',
     env_vars={{ task.env_vars | default({}) }},
-    resources={{ task.resources | default({}) }},
+    {% if not task.container_resources %}
+    container_resources={{default({})}},
+    {% else %}
+    container_resources= V1ResourceRequirements(
+        requests={{task.container_resources.request_resources}}, limits={{task.container_resources.limit_resources}}),
+    {% endif %}
     in_cluster=True,
     is_delete_operator_pod=True,
     on_failure_callback=sleep_on_failure,
     do_xcom_push=True,
     dag=dag
 )
-
 {% if task.prev_task %}
 {{task.prev_task}} >> {{ task.task_variable }}
 {% endif %}
-
 {% endfor %}
 
