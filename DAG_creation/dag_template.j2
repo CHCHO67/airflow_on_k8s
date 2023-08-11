@@ -22,11 +22,6 @@ mount = k8s.V1VolumeMount(
     read_only="{{mount.read_only}}",
 )
 
-# task_resources = V1ResourceRequirements(
-#     requests={'memory': '{{ resources.memory_request }}', 'cpu': '{{ resources.cpu_request }}'},
-#     limits={'memory': '{{ resources.memory_limit }}', 'cpu': '{{ resources.cpu_limit }}'}
-# )
-
 default_args = {
     'owner': '{{ default_arg.dag_owner | default("airflow") }}',
     'depends_on_past': False,
@@ -58,10 +53,12 @@ def sleep_on_failure(context):
     task_id='{{ task.task_id }}',
     env_vars={{ task.env_vars | default({}) }},
     {% if not task.container_resources %}
-    container_resources={{default({})}},
+    container_resources={},
     {% else %}
     container_resources= V1ResourceRequirements(
-        requests={{task.container_resources.request_resources}}, limits={{task.container_resources.limit_resources}}),
+        requests={{task.container_resources.request_resources}},
+        limits={{task.container_resources.limit_resources}}
+        ),
     {% endif %}
     in_cluster=True,
     is_delete_operator_pod=True,

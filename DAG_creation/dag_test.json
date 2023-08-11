@@ -76,16 +76,16 @@
                 "ENV_VAR1": "value1",
                 "ENV_VAR2": "value2"
             },
-            "container_resources": [
+            "container_resources": {
                 "request_resources": {
-                    "memory": "",
-                    "cpu": ""
+                    "memory": "128Mi",
+                    "cpu": "100m"
                 },
                 "limit_resources": {
-                    "memory": "",
-                    "cpu": ""
+                    "memory": "1Gi",
+                    "cpu": "1"
                 }
-            ]
+            }
         }
     ]
 }
