@@ -74,6 +74,8 @@ airflow:
     AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE: "Asia/Seoul"
     AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL: "60"
 
+    AIRFLOW__API__AUTH_BACKEND: "airflow.api.auth.backend.basic_auth"
+
     # Kubernetes
     AIRFLOW__KUBERNETES__NAMESPACE: "airflow-cluster"
     #AIRFLOW__KUBERNETES__POD_TEMPLATE_FILE: "/mnt/shared/airflow/airflow/pod_template.yaml"
