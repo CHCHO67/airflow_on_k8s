@@ -10,7 +10,7 @@ airflow:
   ##
   image:
     repository: apache/airflow
-    tag: 2.5.3-python3.8
+    tag: 2.6.3-python3.9
     pullPolicy: IfNotPresent
     pullSecret: ""
     uid: 50000
@@ -838,12 +838,12 @@ web:
     annotations: {}
     sessionAffinity: "None"
     sessionAffinityConfig: {}
-    type: ClusterIP
+    type: NodePort
     externalPort: 8080
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     nodePort:
-      http: ""
+      http: "31329"
 
   ## configs for the web Pods' readiness probe
   ##
