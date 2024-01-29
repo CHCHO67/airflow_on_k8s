@@ -1,0 +1,10 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: dags
+provisioner: kubernetes.io/no-provisioner  # 예: kubernetes.io/aws-ebs, kubernetes.io/gce-pd
+parameters:
+  server: 192.168.20.3
+  path: /mnt/shared
+reclaimPolicy: Delete
+allowVolumeExpansion: true

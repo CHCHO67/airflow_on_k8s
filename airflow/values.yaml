@@ -231,7 +231,6 @@ airflow:
   ## ____ EXAMPLE _______________
   ##   extraPipPackages:
   ##     - "SomeProject==1.0.0"
-  ##
   extraPipPackages: []
 
   ## pip packages that are protected from upgrade/downgrade by `extraPipPackages`
@@ -337,10 +336,10 @@ airflow:
     ##
     resources:
       requests:
-        memory: "2Gi"
+        memory: "4Gi"
         cpu: "1"
       limits:
-        memory: "2Gi"
+        memory: "4Gi"
         cpu: "1"
 
     ## the nodeSelector configs for the Pod template
@@ -425,7 +424,7 @@ airflow:
           claimName: data-pvc
       - name: k8s-pod-logs
         persistentVolumeClaim:
-          claimName: airflow-local-logs-folder
+          claimName: airflow-local-logs-pvc
 
   ########################################
   ## COMPONENT | db-migrations Deployment
@@ -1340,7 +1339,7 @@ logs:
     ## if a persistent volume is mounted at `logs.path`
     ##
     enabled: false
-    existingClaim: airflow-local-logs-folder
+    existingClaim: airflow-local-logs-pvc
     accessMode: ReadWriteMany
 
     ## the name of an existing PVC to use
@@ -1361,7 +1360,7 @@ logs:
 
     ## the size of PVC to request
     ##
-    size: 1Gi
+    size: 4Gi
 
 ###################################
 ## CONFIG | Airflow DAGs
@@ -1377,7 +1376,7 @@ dags:
     ## if a persistent volume is mounted at `dags.path`
     ##
     enabled: true
-    existingClaim: airflow-local-dags-folder
+    existingClaim: airflow-local-dags-pvc
     accessMode: ReadWriteMany
 
     ## the name of an existing PVC to use
@@ -1399,7 +1398,7 @@ dags:
 
     ## the size of PVC to request
     ##
-    size: 1Gi
+    size: 4Gi
 
   ## configs for the git-sync sidecar (https://github.com/kubernetes/git-sync)
   ##

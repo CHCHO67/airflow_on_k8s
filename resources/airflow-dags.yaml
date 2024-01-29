@@ -1,29 +1,36 @@
+# apiVersion: storage.k8s.io/v1
+# kind: StorageClass
+# metadata:
+#   name: dags
+# provisioner: kubernetes.io/no-provisioner
+# volumeBindingMode: Immediate
+# ---
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: airflow-local-dags-folder
+  name: airflow-local-dags-pv
   labels:
     type: nfs
 spec:
   storageClassName: dags
   capacity:
-    storage: 2Gi
+    storage: 4Gi
   accessModes:
     - ReadWriteMany
   nfs:
     path: "/mnt/shared/airflow/dags"
     server: 192.168.20.3
-
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: airflow-local-dags-folder
+  name: airflow-local-dags-pvc
   namespace: airflow-cluster
 spec:
+  volumeName: airflow-local-dags-pv
   storageClassName: dags
   accessModes:
     - ReadWriteMany
   resources:
     requests:
-      storage: 2Gi
+      storage: 4Gi
